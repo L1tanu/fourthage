@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: The 4th Age
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -154,6 +154,9 @@ plugins:
     enabled: true
   - source: github:quartz-community/explorer
     enabled: true
+    options:
+      mapFn: |
+        (node) => { node.displayName = node.displayName.replaceAll("-", " ") }
     layout:
       position: left
       priority: 50
