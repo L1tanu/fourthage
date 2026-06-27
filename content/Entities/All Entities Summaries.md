@@ -11,8 +11,8 @@ Below is a summary of all Entities available to players, including common symbol
 **Equivalents:** Seridia (Marathan/Mazzaroth), the Bull God (Tousavi Crownlands).
 ## Latter Hallow Rhealisse: Spirit of Seas, Storms, and Revolution.
 **Aliases:** Queen Rhiannon, the Thunderbrand, the Godsbride of Tyren. 
-**Symbols:** Spears, wild horses, seafoam, lightning, seabird feathers. **
-Worship:** Deny the will of the imperious and unworthy; match all challenges with overwhelming force; inspire insurgence through your example. 
+**Symbols:** Spears, wild horses, seafoam, lightning, seabird feathers.
+**Worship:** Deny the will of the imperious and unworthy; match all challenges with overwhelming force; inspire insurgence through your example. 
 **Dwelling:** The northern coasts of Littoire, Tousav, and the storms of the Yiegdran Sea. 
 **Equivalents:** Rhea (Marathan/Mazzaroth), the Folk Hero Ríona (Tyric).
 ## Latter Hallow Patrinne: Spirit of Mountains, Sky, and Tradition.

@@ -1,5 +1,4 @@
 ---
-title: Welcome to The 4th Age
+title: Welcome!
 ---
-
-Welcome to my site!
+Welcome to the new website. Please navigate using the search bar or the index on the left.
