@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"text":"**Avulsion** is the act of the *Amalgam* forcibly closing a thaumaturgist's personal Gate, thus sealing away their Original Exchange and their magic.","id":"be1165844f55c27f","type":"text","x":-1311,"y":-1000,"width":303,"height":182},
+		{"text":"**Gates** are passageways from the material to the void, and vice-versa. They were initially put down by the Entities, but copied by both Theurgists and Thaumaturgists. They are mirror between both realms.\n\nEach gate possess runes from the entities that act as:\n- stabilizers\n- marks to identify where they are\n- wards against the amalgam\n- limits on what can enter/exit","height":360,"id":"76f7793a09b47b58","type":"text","y":-160,"x":-491,"width":421},
+		{"text":"**The Void** is the First Cycle world where magic once reigned supreme. The Recreator made a new world, recycling all but the original means of magic. The world of magic was preserved and now functions as a prison for the *Entities* (beings powerful enough to resist the remaking) and their warden, the *Amalgam.*","type":"text","id":"729e9017f4ee241b","x":-825,"y":-778,"width":420,"height":198},
+		{"text":"**Entities** are users of magic that had reached such heights as to resist the remaking of their world. Those too weak were turned into the original basis of the *Amalgam*. They created divots and mistakes in the Second Cycle world, these are the original *Gates.*","id":"a53e02d2b72baa02","type":"text","x":-783,"y":-515,"width":335,"height":220},
+		{"text":"**Gallu** are created by Entities who do not wish to have any more people feed into the *Amalgam* and so ferry their minds back to the material before they turn.","type":"text","id":"a2af053b071c85bc","x":480,"y":-170,"width":330,"height":160},
+		{"text":"**Theurgy** is the requesting of aid in exchange for specific sacrifices to and from an *Entity.*","id":"840c7ffa89165290","type":"text","x":-405,"y":580,"width":250,"height":120},
+		{"text":"**Material World** is the Second Cycle world that was created after the dissolution of the first. It is made of the recycled mass of it, but shifted away from the backdrop of magic.","type":"text","id":"3fa863f07a82a58f","x":-432,"y":800,"width":305,"height":200},
+		{"text":"**Thaumaturgy** copies the works of *theurgists*, *Entities*, and their *Gates* in order to perform simple, yet powerful, acts of magic.","type":"text","id":"5d4a2a1dbfe25598","x":-1350,"y":200,"width":380,"height":140},
+		{"text":"**Amalgam** is the collected mass of post-human conciousness that has been turned towards the mission of keeping the Second Cycle of the world free from any magic. It does so by shutting any Gates it can find.","id":"a2962335127c01b1","type":"text","x":5,"y":-778,"width":370,"height":200},
+		{"text":"**Drop(s)** are the individual components of the *Amalgam* as none are truly fused together. They are formed out of the sapience of mankind, only separated when their lives are truly over, then transmuted into something new.\n\n","type":"text","id":"869f6974253e42fe","x":0,"y":-390,"width":380,"height":220},
+		{"text":"**Ghosts/Wretches** are the product of *Gallu* that would be sent back, but are either interrupted or have little to stabilize them (ie, their original bodies) when in the material world.","type":"text","id":"4e016b7ebfe1af1e","x":940,"y":-185,"width":360,"height":190},
+		{"text":"Because **Thaumaturgists** are not aware of the existence of the *Amalgam*, the prevailing belief is that a connection between the material and immaterial worlds can only handle so much strain before it snaps. They liken it to a rope or a chain link.","id":"ad97051568897112","type":"text","x":-1349,"y":-485,"width":380,"height":190},
+		{"text":"**Liturgy** creates a small *Amalgam* by fusing a human vessel with multiple **Drops**. This allows the vessel to transcend their physical limits through the experience of multiple lifetimes, but shatters their sense of self and prevents them from performing **Theurgy** or **Thaumaturgy**","id":"79c35dc6e92c7ed0","x":1400,"y":-190,"width":400,"height":200,"type":"text"}
+	],
+	"edges":[
+		{"id":"c28445c59d124bb9","fromNode":"729e9017f4ee241b","fromSide":"bottom","toNode":"a53e02d2b72baa02","toSide":"top"},
+		{"id":"7e50edce70fcfe0d","fromNode":"5d4a2a1dbfe25598","fromSide":"top","toNode":"ad97051568897112","toSide":"bottom"},
+		{"id":"ab1ce608a4fe1cf1","fromNode":"a2962335127c01b1","fromSide":"top","toNode":"be1165844f55c27f","toSide":"right"},
+		{"id":"f8e7f60a5416cda8","fromNode":"840c7ffa89165290","fromSide":"top","toNode":"76f7793a09b47b58","toSide":"bottom","label":"Voidtongue"},
+		{"toSide":"top","id":"a1db8fdec8901536","toNode":"76f7793a09b47b58","fromNode":"a53e02d2b72baa02","fromSide":"bottom"},
+		{"fromSide":"left","fromNode":"a2962335127c01b1","id":"6e07ba703d67491e","toNode":"76f7793a09b47b58","toSide":"top"},
+		{"toSide":"left","id":"146caad126ad2b2d","fromSide":"top","fromNode":"5d4a2a1dbfe25598","toNode":"76f7793a09b47b58"},
+		{"id":"a47c7be788355a77","fromSide":"bottom","toSide":"right","toNode":"3fa863f07a82a58f","fromNode":"a2af053b071c85bc"},
+		{"fromNode":"a2af053b071c85bc","id":"3f85e724eb3f6520","toSide":"left","fromSide":"right","toNode":"4e016b7ebfe1af1e"},
+		{"fromNode":"869f6974253e42fe","fromSide":"right","id":"993ff7f9f878645b","toNode":"a2af053b071c85bc","toSide":"top"},
+		{"id":"73f62e1930d2e71a","toNode":"5d4a2a1dbfe25598","toSide":"bottom","fromNode":"840c7ffa89165290","fromSide":"left"},
+		{"toNode":"840c7ffa89165290","fromSide":"top","id":"45ea5a9e54ec5ac4","fromNode":"3fa863f07a82a58f","toSide":"bottom"},
+		{"id":"0376bdcd38b96a09","toSide":"bottom","toNode":"869f6974253e42fe","fromNode":"3fa863f07a82a58f","fromSide":"right"},
+		{"toSide":"right","fromNode":"4e016b7ebfe1af1e","toNode":"3fa863f07a82a58f","id":"8fc3bae053c3a061","fromSide":"bottom"},
+		{"fromNode":"869f6974253e42fe","id":"0818c0ca5897b4d4","fromSide":"top","toNode":"a2962335127c01b1","toSide":"bottom"},
+		{"id":"cf8f37460f1768ef","fromNode":"ad97051568897112","fromSide":"top","toNode":"be1165844f55c27f","toSide":"bottom"},
+		{"id":"70c5a76206b24be4","fromNode":"869f6974253e42fe","fromSide":"right","toNode":"79c35dc6e92c7ed0","toSide":"top"},
+		{"id":"288a249cc50375cf","fromNode":"79c35dc6e92c7ed0","fromSide":"bottom","toNode":"3fa863f07a82a58f","toSide":"right"}
+	]
+}
