@@ -1,6 +1,0 @@
-views:
-  - type: table
-    name: Table
-  - type: leaflet-map
-    name: View
-    image: worldmap.svg
