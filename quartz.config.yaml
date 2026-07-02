@@ -164,8 +164,6 @@ plugins:
     layout:
       position: left
       priority: 50
-  - source: github:quartz-community/obsidian-plugin-leaflet
-    enabled: true
   - source: github:quartz-community/graph
     enabled: false
     layout:
@@ -180,7 +178,7 @@ plugins:
       groupOptions:
         grow: true
   - source: github:quartz-community/backlinks
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 50
@@ -248,7 +246,8 @@ plugins:
       display: mobile-only
   - source: github:quartz-community/bases-page
     enabled: true
-    options: {}
+    options:
+      enableCopyTool: true
     order: 50
   - source: github:quartz-community/note-properties
     enabled: true
@@ -278,6 +277,11 @@ plugins:
       enableInteraction: true
       darkMode: auto
       exportPadding: 20
+    order: 50
+  - source: github:requiae/quartz-leaflet-bases-plugin
+    enabled: true
+    options:
+      enableCopyTool: false
     order: 50
 layout:
   groups:

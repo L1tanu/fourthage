@@ -181,12 +181,6 @@
       "commit": "dad0a4c0abdc8b3c2786277a2cbd67dc039c754c",
       "installedAt": "2026-06-27T19:06:27.824Z"
     },
-    "obsidian-plugin-leaflet": {
-      "source": "github:quartz-community/obsidian-plugin-leaflet",
-      "resolved": "https://github.com/quartz-community/obsidian-plugin-leaflet.git",
-      "commit": "d67052661cf39342b13094c2c560b1275d395504",
-      "installedAt": "2026-07-01T02:20:16.993Z"
-    },
     "og-image": {
       "source": "github:quartz-community/og-image",
       "resolved": "https://github.com/quartz-community/og-image.git",
@@ -204,6 +198,12 @@
       "resolved": "https://github.com/quartz-community/page-title.git",
       "commit": "a1c1fe0a9c6a5ce1acf6efa01d473a7d9850e2a3",
       "installedAt": "2026-06-27T19:06:27.339Z"
+    },
+    "quartz-leaflet-bases-plugin": {
+      "source": "github:requiae/quartz-leaflet-bases-plugin",
+      "resolved": "https://github.com/requiae/quartz-leaflet-bases-plugin.git",
+      "commit": "48da13cf01ba6d742e616da2e837fd2a9478ac79",
+      "installedAt": "2026-07-02T02:00:38.499Z"
     },
     "quartz-themes": {
       "source": {
