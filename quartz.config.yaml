@@ -148,7 +148,7 @@ plugins:
     enabled: true
   - source: github:quartz-community/cname
     enabled: true
-  - source: github:quartz-community/canvas-page
+  - source: github:L1tanu/canvas-page
     enabled: true
   - source: github:quartz-community/content-page
     enabled: true
