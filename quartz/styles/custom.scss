@@ -4,4 +4,25 @@
 
 button.title-button.desktop-explorer {
   display: none;
+
+}
+
+@media all and (min-width: map-get($breakpoints, desktop)) {
+  #quartz-body {
+    grid-template-columns: 380px auto 380px; // left, center, right
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+.sidebar.left .folder-title {
+  font-size: 1.25rem !important;
+}
+
+// custom.scss
+.explorer-ul.overflow {
+  border: 5px solid transparent !important;
+  height: 100% !important;
 }

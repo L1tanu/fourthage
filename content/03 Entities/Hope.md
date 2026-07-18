@@ -1,11 +1,16 @@
 ---
 publish: true
 ---
- ***(PLAKI - “PERMISSION”)***
+<div class="centered">
+
+***(PLAKI - “PERMISSION”)***
 
 _“I AM THAT WHICH HEARS THE PAUPER’S PRAYER. 
 YOUR EVERY INHALATION, AND EXULTATION. 
 I AM HOPE.”_ 
+
+</div>
+
 ## **Hope: Force of Payment, Pay-offs, and the Period In-between.**
 **Aliases:** Plaki, Thalassa-Daah, the Enduring Sea, the Last to Leave. 
 **Symbols:** Coinage, smiling faces, wells, cracked stone, thieves. 

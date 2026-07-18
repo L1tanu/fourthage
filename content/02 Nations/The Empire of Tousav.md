@@ -1,13 +1,18 @@
 ---
 publish: true
 ---
-# ARETE: THE EMPIRE OF TOUSAV
-*(TOUVASSAUX - “ALL THE VASSALS”)* 
+<div class="centered">
+
+***(TOUVASSAUX - “ALL THE VASSALS”)*** 
 
 *"TEAR BACK MANKIND’S DESTINY* 
 *FROM THE HANDS OF FALSE PROPHETS!* 
 *SLAKE YOUR THIRST FOR JUSTICE* 
 *WITH THE BLOOD OF LYING GODS!”*
+
+</div>
+
+## ARETE: THE EMPIRE OF TOUSAV
 
 Tousav, or simply ‘the Empire’, arose from the dissolution of the Marathan Empire in the Late Third Age as a diverse array of nations under the Pallasian banner. Due to widespread famine, imperial mismanagement, and an ongoing war of succession in the Marathan Empire’s heartlands, the dukes of Pallas seized the opportunity to incite revolution in one of Marathas' historic capitals, Varashal. Supplying weapons to a peasant army, the nobility assembled ragtag peoples’ militias and slew many of the viziers charged with enforcing Marathan rule in an event known as the Day of the Roaring Lion. 
 

@@ -1,14 +1,19 @@
 ---
 publish: true
 ---
+<div class="centered">
+
 ***(EVELYON - “HIGHEST OF WOMEN”)***
 
 _“HOW LONG WOULD THE GODS ENDURE A PEOPLE 
 WHO HAD MADE HARLOTS OF THEIR HEARTS, 
 WHO HAD ALLOWED THEMSELVES TO BE NUMBED 
 BY VENAL EASE AND SLOTH OF SPIRIT?”_ 
+
+</div>
+
 ## **Hymnal-Saint Eveline: Saint of Borders, Iron, and Womanhood.**
-**Aliases:** The Highest of Women, the Iron Maiden, the Mother Superior Evelis. 
+**Aliases:** Aspect of Ista, the Highest of Women, the Iron Maiden, the Mother Superior Evelis. 
 **Symbols:** Iron maidens, austere masks, cages, the eclipse, a woman’s body. 
 **Worship:** Allow no assaults against your sworn charge; approach guardianship with a full heart, offer deathless love for your wards; destroy evils which you cannot control. 
 **Dwelling:** The borders of Hazanite lands, Lagain, and the thresholds of sanctuaries. 

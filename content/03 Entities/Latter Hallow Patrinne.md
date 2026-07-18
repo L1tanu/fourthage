@@ -1,12 +1,17 @@
 ---
 publish: true
 ---
+<div class="centered">
+
 ***(OREAIS, OROS - “MOUNTAIN”)***
 
 _“THERE ARE NO SCALES UPON THE MOUNTAIN, 
 ONLY MEN AND THEIR MANY-COLORED INCLINATIONS.”_ 
+
+</div>
+
 ## **Latter Hallow Patrinne: Spirit of Mountains, Sky, and Tradition.**
-**Aliases:** Dragon of the Halepiggen, the Bladebreaker, the Mountaindrake. 
+**Aliases:** Aspect of Sundra, Dragon of the Halepiggen, the Bladebreaker, the Mountaindrake. 
 **Symbols:** Shields, mountains, dragons, stone and mortar, plate armor, scales. 
 **Worship:** Outlast all adversaries; exercise inhuman patience across the turn of seasons; maintain tradition, be the bridge which connects generations. 
 **Dwelling:** The Halepiggen of Tousale in Orralune, Tousav, and the winds of the fjords. 

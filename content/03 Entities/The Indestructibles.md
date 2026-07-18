@@ -1,12 +1,16 @@
 ---
 publish: true
 ---
+<div class="centered">
+
 ***(CONCORDIA - “UNITY, HARMONY”)***
 
 _“IF A MAN ANALYSES HIS OWN MIND, HE FINDS IT 
 VIOLENTLY DIVORCED FROM ALL ENVIRONMENT, 
 A THING OF ITSELF, STANDING ALONE, 
 IN UNNATURAL ISOLATION.”_ 
+
+</div>
 
 Synthesis, unity, marriage; in the Orthian Concord, these concepts are irreclaimably fused. The Indestructibles, chief of their deities, are the origin of mankind’s dualities. Its inveterate contradictions. Its history, and its future. Perhaps fittingly, the Indestructibles are the most storied of all deities within the Orthian pantheon: they existed as a concept before the Second Age as nameless gods of prophecy, worshipped by the people of Ensas; when the Marathans claimed them, repurposed them, they became Enerda: binary stars entwined like snakes, constricting both sides of the wheel of time; and when the Gailian tribes found them, centuries later, they became the agents and outcomes of the Axiom’s undoing. Their name is a reflection of this syncretism. Past and future, what was and what will be. The two things beyond humanity's reach.
 

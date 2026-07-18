@@ -1,14 +1,19 @@
 ---
 publish: true
 ---
-# VEHEMENCY: THE GREAT CLANS OF AARDAYN
-*(AARDAYN - "COLD EARTH")* 
+<div class="centered">
+
+***(AARDAYN - "COLD EARTH")*** 
 
 *“AMONG THE EARTH,* 
 *DEEP IN THE SEA,* 
 *THROUGH FIRE AND SKY,* 
 *THE VOICE IS ALL 
 AND ALL ARE ONE.”* 
+
+</div>
+
+## VEHEMENCY: THE GREAT CLANS OF AARDAYN
 
 Aardayn is a nation steeped in ancient tradition, founded at the edge of the world and kept alive by the resilience of its people. Despite the difficulties of life in Yiegdra’s north-western tundras, the rule of Aardayn’s lords is dominant and far-reaching, owed in part to a history of brutal conquest which stretched into the twilight of the old empires. The people of Aardayn are made up of several unique cultural groups unified by staunch spiritual beliefs and an ancestral worship which pervades all aspects of life. Known as ‘Our Way’--or ‘The Way of The Five Voices’ by outside scholars--faith for the Aardayni peoples is equal parts myth and history. They hold little interest in record-keeping; that work is left to the oral accounts of skalds, storytellers, and shamans. The nation’s governance is twofold: chiefs of prominent tribal families function as rulers to the realms, while matters of the faith are handled by the shaman-lords. These governing powers gather under the Tsara, whose nominal authority is often superseded by the decrees of the Speaker, the highest shaman-lord. 
 

@@ -1,11 +1,16 @@
 ---
 publish: true
 ---
+<div class="centered">
+
 ***(FAMES - “STARVATION”)***
 
 _“I SUSPECT THAT HUNGER WAS MY MOTHER: 
 FROM THE TIME THAT I WAS BORN 
 I HAVE NEVER BEEN FULL.”_ 
+
+</div>
+
 ## **Ölön: Demon of Lust, Excess, and Succumbing to Starvation.**
 **Aliases:** The Hostile Housemate, the Starving One, Fames. 
 **Symbols:** Contours of a hungry dog, ribs, bite marks, meat, predators, prey, shapechangers. 

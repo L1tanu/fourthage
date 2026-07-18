@@ -1,13 +1,18 @@
 ---
 publish: true
 ---
+<div class="centered">
+
 ***(APOTHEOSIS - “TO MAKE A GOD OF”)***
 
 _“IF THE WORLD IS A GAME WHOSE RULES ARE WRITTEN BY THE GODHEAD, 
 AND SORCERERS ARE THOSE WHO CHEAT AND CHEAT, 
 THEN WHO HAS WRITTEN THE RULES OF SORCERY?”_ 
+
+</div>
+
 ## **Hymnal-Saint Apotheon: Saint of Sorcery, Eagles, and Prophetic Visions.**
-**Aliases:** Master of Idolum, the Immaculate One, the Yellow Sage Chrysofteros. 
+**Aliases:** Aspect of Garuda, Master of Idolum, the Immaculate One, the Yellow Sage Chrysofteros. 
 **Symbols:** Yellow cloaks, eagles, gold wings, thaumaturgy wounds, flesh-ligatured words. 
 **Worship:** Seek the hidden truth in all things, allow nothing to escape you; mind the past to understand the future; become godlike through your collected experience. 
 **Dwelling:** The Houses of Wisdom in Ansium, Marathas. 

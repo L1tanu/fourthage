@@ -1,11 +1,22 @@
 ---
 publish: true
 ---
-## (MERX - “PRICE PAID”)
+<div class="centered">
+
+***(MERX - “PRICE PAID”)***
     
 _“COME BACK TO ME. 
 EVEN AS A SHADOW, 
 EVEN AS A DREAM.”_ 
+
+</div>
+
+## The Wælmist: Specter of Grief, Memory, and Mourning Shrouds.
+**Aliases:** The Mourning Shroud, the Price Paid, the Merx. 
+**Symbols:** Clasped hands, steles, bouquets, braided hair, burial cloth, veils over thresholds. 
+**Worship:** Honor the dead, ease the living; covet your grief, let it be as nourishment for your empathy and devotion; seek humanity’s wounds where they are deepest. 
+**Dwelling:** The battlefield, graveyards, and elegies sung for the dying or dead. 
+**Equivalents:** Agents of the Exalt Erono (Orthian Concord), child of Harm’lyoth (Aardayni), folk aspect of Syah’varfutl (Aardayni).
 
 There was a shroud about the battlefield on the day the Wælmist revealed itself. The pale hands of wraiths reached through the watery veil between worlds, guiding the souls of the slain to their place on the other side. Somber melodies choked from the lips of the dying; all men, living and dead, were moved by a thousand thousand elegies. Such is the myth surrounding the fall of the Throne of Ensas, and the bloodshed of that brutal day. Since then, much like the eulogies at Ensas, the worship of the Wælmist has spread without source or end. Wherever there are humans, there are Wælmist cults. Wherever there is suffering, its followers flock. It may be the case that no single mythology can be credited with the origin of its worship. Perhaps all men find her when they lose their appetite for death. 
 

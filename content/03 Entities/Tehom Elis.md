@@ -1,10 +1,15 @@
 ---
 publish: true
 ---
+<div class="centered">
+
 ***(APASU - “FEMALE CHIMERA”)***
 
 _“BEFORE THERE WAS ANYTHING, THERE WAS NOTHING. 
 BEFORE THERE WAS NOTHING, THERE WERE MONSTERS.”_ 
+
+</div>
+
 ## **Tehom Elis: Goddess of Vermin, Mutation, and Maternity.**
 **Aliases:** The Primordial Mother, the Mother of Small Things, the Chimera. 
 **Symbols:** A twin-tailed snake, chimeric Gallu, carrion birds, insects, rodents, the moon, mothers. 

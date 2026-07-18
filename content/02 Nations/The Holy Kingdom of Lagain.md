@@ -1,13 +1,18 @@
 ---
 publish: true
 ---
-# ONENESS: THE HOLY KINGDOM OF LAGAIN
-*(LAGAIN - “NORTHERN LAND OF THE GAILS”)* 
+<div class="centered">
+
+***(LAGAIN - “NORTHERN LAND OF THE GAILS”)*** 
 
 *“THE MANIFESTATIONS OF MANKIND,* 
 *VINDICATED BY THE EXALTS,* 
 *CASTIGATE THE ENEMIES* 
 *OF THE GODHEAD.”* 
+
+</div>
+
+## ONENESS: THE HOLY KINGDOM OF LAGAIN
 
 Lagain is a kingdom which rose to prominence during the end of the Third Age as a center of commerce and culture. Positioned on the northern coast of the Yiegdran Sea, the fertile soil and temperate forests of the Lagainian Peninsula spawned a patchwork array of tribes, city-states, and feudal demesnes. However, the collapse of the old empire and subsequent rise of Tousav compelled the disparate Lagainians to reach an accord: unite as one or be devoured. 
 

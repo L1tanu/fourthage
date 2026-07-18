@@ -1,13 +1,18 @@
 ---
 publish: true
 ---
-# RENASCENCE: THE ALLIANCE OF GRAY MARCHES
-(MARATHAS - “CHARIOT OF MARA”)
+<div class="centered">
+
+***(MARATHAS - “CHARIOT OF MARA”)***
 
 _“IN THE DEEPEST DARKNESS 
 YOU ARE WRAPPED, 
 SEEK FOR THE LIGHT: 
 ALL NIGHTS MUST END.”_ 
+
+</div>
+
+## RENASCENCE: THE ALLIANCE OF GRAY MARCHES
 
 The Alliance of Gray Marches is a military and economic alliance of southern nations situated in the shadow of the eponymous ‘Gray Marches’, the mountain range which splits the continent. The diverse members of the alliance are the scattered, warring provinces of old empires, sharing a history of conquest and an emphatic drive to crush the rising power of Tousav.
 

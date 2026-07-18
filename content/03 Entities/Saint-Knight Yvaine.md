@@ -1,12 +1,17 @@
 ---
 publish: true
 ---
+<div class="centered">
+
 ***(SEERIA - “GLOWING”)***
 
 _“WHEN A MAN FAILED TO WEED HIS GARDEN, 
 DID HE NOT GROW WEEDS?"_ 
+
+</div>
+
 ## **Saint-Knight Yvaine: Saint of Retribution, Conquest, and Blood.**
-**Aliases:** Archon of Justice, the High Magistrate, Saint-Knight Yvaine of Peren. 
+**Aliases:** Aspect of Seridia, Archon of Justice, the High Magistrate, Saint-Knight Yvaine of Peren. 
 **Symbols:** Warbows, blindfolds, the winged bull, chariots. 
 **Worship:** Seek retribution for all misdeeds, no matter how slight; make them fear you, lest they forget you; never shy from the path of most resistance. 
 **Dwelling:** The High-Courts of the Empire of Tousav, and the arc of a sword’s swing. 

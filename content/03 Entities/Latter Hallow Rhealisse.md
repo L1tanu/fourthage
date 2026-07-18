@@ -1,13 +1,18 @@
 ---
 publish: true
 ---
+<div class="centered">
+
 ***(RHIANNON - “GREAT QUEEN”)***
 
 _“IF A CITY WAS OLD, THE GUTTERS AND POOLS 
 WOULD ALWAYS GLITTER BLACK, 
 SODDEN BY THE DETRITUS OF AGES. “_ 
+
+</div>
+
 ## **Latter Hallow Rhealisse: Spirit of Seas, Storms, and Revolution.**
-**Aliases:** Queen Rhiannon, the Thunderbrand, the Godsbride of Tyren. 
+**Aliases:** Aspect of Rhea, Queen Rhiannon, the Thunderbrand, the Godsbride of Tyren. 
 **Symbols:** Spears, wild horses, seafoam, lightning, seabird feathers. 
 **Worship:** Deny the will of the imperious and unworthy; match all challenges with overwhelming force; inspire insurgence through your example. 
 **Dwelling:** The northern coasts of Littoire, Tousav, and the storms of the Yiegdran Sea. 

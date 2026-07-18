@@ -1,8 +1,12 @@
 ---
 publish: true
 ---
+<div class="centered">
+
 _"From beyond the firmament there are things from which all amidst humanity can say, 'no eye has seen, no hand has touched, no ear has heard, nor mind has thought!' These shall be delivered unto you from those whose eyes have witnessed, whose hands have wrought, whose ears have tuned, whose minds have dreamt of them."_ 
 — A passage from a High Marathan papyrus titled 'The Virtues of Heresy'. 
+
+</div>
 
 Magic in the world of Yiegdra is a force hard bargained for, something to prove the prowess of gods and the hubris of humanity. Its power is unique and awe inspiring, but has yet to supplant the rule of iron, and so, kingdoms are raised and felled by legions of soldiers, not through the work of miracles. There is but a solitary source of magic throughout the world, but the methods of interaction are twofold: theurgy and thaumaturgy. Theurgy entreats gods long worshipped to invoke their power within the physical world, while thaumaturgy relies on a self-deifying process to ape the performance of a miracle without prayer. Regardless of the method chosen, the means are always the same: magic does not exist here and must be allowed entrance by use of a inscribed threshold, commonly referred to as a Gate. Gates allow an exchange to take place between the physical and the metaphysical with the ultimate result of this exchange being the foundation of the arcane.
 # Gates and Keys

@@ -1,12 +1,17 @@
 ---
 publish: true
 ---
+<div class="centered">
+
 ***(MIKALAEON - “ALIKE TO GOD”)***
 
 _“THROUGH THEE, KIND PROSPERER, 
 MAY WE OBTAIN WEALTH WHICH ALL MEN DESIRE.”_ 
+
+</div>
+
 ## **Hymnal-Saint Mikhail: Saint of Laborers, Salt, and Tolerance.**
-**Aliases:** The Son of Salt, the Kind Prosperer, the Laborer Mikalaeon 
+**Aliases:** Aspect of Posa, the Son of Salt, the Kind Prosperer, the Laborer Mikalaeon 
 **Symbols:** Salt pillars, mules, lit lanterns, calloused hands, amphoras. 
 **Worship:** See your tasks through to the end; labor selflessly for the betterment of others, lay the foundation upon which they tread; tolerate all invectives and abuse, rise above them. 
 **Dwelling:** The desolate salt flats of Altrecht, Lagain, and within ravines or quarries. 
