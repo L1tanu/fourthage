@@ -32,9 +32,9 @@
       "installedAt": "2026-06-27T19:06:27.500Z"
     },
     "canvas-page": {
-      "source": "github:quartz-community/canvas-page",
-      "resolved": "https://github.com/quartz-community/canvas-page.git",
-      "commit": "84fc96799671a65f76b66e30217dbefdd43a2905",
+      "source": "github:L1tanu/canvas-page",
+      "resolved": "https://github.com/L1tanu/canvas-page.git",
+      "commit": "bd58aaf539b87cce4cd4212053415eb3f798defa",
       "installedAt": "2026-06-27T19:06:26.810Z"
     },
     "citations": {
