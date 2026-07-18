@@ -26,3 +26,24 @@ button.title-button.desktop-explorer {
   border: 5px solid transparent !important;
   height: 100% !important;
 }
+
+.canvas-node-content .centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.canvas-node-content {
+  padding: 6px 8px; // reduce from the default 12px, tweak to taste
+
+  p {
+    margin: 0; // kill default paragraph spacing
+  }
+
+  p + p {
+    margin-top: 0.4em; // small gap between multiple paragraphs, if you want one
+  }
+}
