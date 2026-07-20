@@ -9,9 +9,9 @@ Advantage on Contested defender rolls and +5 to Saves.
 ## Fully Covered
 (behind a full stone wall, or a shut door)
 Flat 20 (not a Crit.) on Contested defender rolls and +10 to Saves.
-## Unsteady (#)
+## Unsteady
 (fighting on a ship, wading through mud)
-You cannot take the [[01 Combat#^da09d9|Evade]] reaction, then reduce # by 1 at the end of your turn.
+You cannot take the [[01 Combat#^da09d9|Evade]] defensive reactions.
 ## Prone
 Movement costs twice as much.
 ## Cramped
