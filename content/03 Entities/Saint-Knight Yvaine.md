@@ -30,12 +30,42 @@ Depictions of the Saint-Knight Yvaine in Tousav have changed with the turn of Ag
 - Imagery of conquest hewn into a lintel or carved into a statue (10 Favor)
 
 # **Invocations**
-**Smite** Complexity: 1 Favor: (#, minimum of 2) Range: Paces (5) Duration: Instant AP: 2 Effect: The target must succeed a Strength v. Strength contest; on a failure, they suffer the Bleeding (1) condition and take 1d6 damage. The range of this invocation increases by Paces (5) for every 2 additional Favor spent to cast it. 
+**Smite** 
+Complexity: 1 
+Favor: (#, minimum of 2) 
+Range: Paces (5) 
+Duration: Persist (#) 
+AP: 2 
+Effect: The target must succeed a Strength v. Strength contest; on a failure, they suffer the Bleeding (1) condition and take 1d6 damage. The range of this invocation increases by Paces (5) for every 2 additional Favor spent to cast it.
 
-**Twist the Knife** Complexity: 2 Favor: 5 Range: Paces (5) Duration: Instant AP: 2 Effect: The target takes damage equal to their Bleeding (#).
+**Twist the Knife** 
+Complexity: 2 
+Favor: 5 
+Range: Paces (5) 
+Duration: Instant 
+AP: 2 
+Effect: The target takes damage equal to their Bleeding (#).
 
-**Indomitable** Complexity: 3 Favor: 7 Range: Self Duration: Persist (2) AP: 3 Effect: Gain 1 AP whenever you take damage for the duration. 
+**Indomitable** 
+Complexity: 3 
+Favor: 7 
+Range: Self 
+Duration: Persist (2) 
+AP: 3 
+Effect: Gain 1 AP whenever you take damage for the duration. 
 
-**Salt the Earth** Complexity: 4 Favor: 10 Range: Paces (10) Duration: Persist (5) AP: 4 Effect: Supernal light radiates from a space of your choice within range. All targets within Sphere (15) suffer the Deprived condition, and cannot remove their negative conditions through any means. Conditions that would reduce at the end of their turn still apply their effects, but are not reduced. 
+**Salt the Earth** 
+Complexity: 4 
+Favor: 10 
+Range: Paces (10) 
+Duration: Persist (5) 
+AP: 4 
+Effect: Supernal light radiates from a space of your choice within range. All targets within Sphere (15) suffer the Deprived condition, and cannot remove their negative conditions through any means. The Persist of conditions does not reduce at the end of a round.
 
-**Dissolve Like Snow** Complexity: 5 Favor: 20 Range: Sphere (5) Duration: Instant AP: 5 Effect: All targets within range gain Burning (#) equal to half their Bleeding (#).
+**Dissolve Like Snow**
+Complexity: 5 
+Favor: 20 
+Range: Sphere (5) 
+Duration: Persist (#) 
+AP: 5
+Effect: All targets within range gain Burning with the Persist (#) equal to half their Bleeding (#).

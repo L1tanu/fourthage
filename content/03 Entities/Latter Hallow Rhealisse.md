@@ -32,12 +32,42 @@ Come the conquest of the Tyric lands and their reorganization into Littoire, the
 - The mane of a wild horse (10 Favor)
 - A living horse drenched in seawater (20 Favor)
 # **Invocations**
-**Waterwalk** Complexity: 1 Favor: 5 Range: Touch Duration: Persist (6) AP: 1 Effect: The target is capable of walking on water for the duration. 
+**Waterwalk** 
+Complexity: 1 
+Favor: 5 
+Range: Touch 
+Duration: Persist (10) 
+AP: 1 
+Effect: The target is capable of walking on water for the duration.
 
-**Thunder Call** Complexity: 2 Favor: 8 Range: Sphere (5) Duration: Instant AP: 3 Effect: All creatures within range must succeed a Willpower vs. Strength contest; on a failure, they suffer the Dazed (2) and Unsteady (2) conditions. 
+**Thunder Call** 
+Complexity: 2 
+Favor: 8 
+Range: Sphere (5) 
+Duration: Persist (3)
+AP: 3 
+Effect: All creatures within range must succeed a Willpower vs. Strength contest; on a failure, they suffer the Dazed and Unsteady conditions.
 
-**Lightning Crash** Complexity: 3 Favor: 10 Range: Paces (10) Duration: Instant AP: 3 Effect: Lightning crashes down atop a point you choose within range, exploding in Sphere (2). Creatures within the explosion must succeed a Willpower vs. Dexterity contest; on a failure, they take 1d10 damage which bypasses DR. 
+**Lightning Crash** 
+Complexity: 3 
+Favor: 10 
+Range: Paces (10) 
+Duration: Instant 
+AP: 3 
+Effect: Lightning crashes down atop a point you choose within range, exploding in Sphere (2). Creatures within the explosion must succeed a Willpower vs. Dexterity contest; on a failure, they take 1d10 damage.
 
-**Astride** Complexity: 4 Favor: 15 Range: Self Duration: Persist (1) AP: 5 Effect: You create a steed from streams of silvery bubbles. On your next turn, you gain an additional 5 AP which exceeds your maximum and can only be spent on movement. At the end of the duration, your steed erupts into waves and all creatures within Sphere (5) suffer the Prone and Dazed (1) conditions. If a creature succeeds its contest, it suffers Unsteady (1) instead. 
+**Astride** 
+Complexity: 4 
+Favor: 15 
+Range: Self 
+Duration: Persist (1) 
+AP: 5 
+Effect: You create a steed from streams of silvery bubbles. On your next turn, you gain an additional 5 AP which exceeds your maximum and can only be spent on movement. At the end of the duration, your steed erupts into waves and all creatures within Sphere (5) suffer the Slowed and Dazed conditions.
 
-**Wedding in Waves** Complexity: 5 Favor: 20 Range: Touch Duration: Persist (1) AP: 3 Effect: Target must succeed a Willpower vs. Strength contest; on a failure, you both suffer the Suffocating (1) and Tethered (0) conditions. At the end of the round you may choose to extend the duration by Persist (1) for no additional cost.
+**Wedding in Waves** 
+Complexity: 5 
+Favor: 20 
+Range: Touch 
+Duration: Persist (1) 
+AP: 3 
+Effect: Target must succeed a Willpower vs. Strength contest; on a failure, you both suffer the Suffocating (1) and Tethered (0) conditions. At the end of the round you may choose to extend the duration by Persist (1) for no additional cost.

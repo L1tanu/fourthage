@@ -29,12 +29,42 @@ He is typically depicted as a robe-swaddled man at the mouth of a river, cave, o
 - A fresh set of sheets, robes, or a saddle (5 Favor)
 - A pillar of salt, evaluated by height and volume (1-10 Favor)
 # **Invocations**
-**Pull This** Complexity: 1 Favor: (#, maximum of 5) Range: Paces (10) Duration: Instant AP: 1 Effect: The target is pulled closer to you by a number of Paces equal to the Favor expended. 
+**Pull This** 
+Complexity: 1 
+Favor: (#, maximum of 5) 
+Range: Paces (10) 
+Duration: Instant 
+AP: 1 
+Effect: The target is pulled closer to you by a number of Paces equal to the Favor expended. 
 
-**Push That** Complexity: 1 Favor: (#, maximum of 5) Range: Touch Duration: Instant AP: 2 Effect: The target is pushed away from you by a number of Paces equal to the Favor expended. 
+**Push That** 
+Complexity: 1 
+Favor: (#, maximum of 5) 
+Range: Touch 
+Duration: Instant 
+AP: 2 
+Effect: The target is pushed away from you by a number of Paces equal to the Favor expended. 
 
-**Build This** Complexity: 2 Favor: (#, maximum 10) Range: Paces (1) Duration: Persist (#, maximum 10) AP: 2 Effect: Construct a pillar 1 Pace wide and long, and 3 Paces high with Hardness (#) and Persist (#) equal to the Favor expended. 
+**Build This** 
+Complexity: 2 
+Favor: (#, maximum 10) 
+Range: Paces (1) 
+Duration: Persist (#, maximum 10) 
+AP: 2 
+Effect: Construct a pillar 1 Pace wide and long, and 3 Paces high with Hardness (#) and Persist (#) equal to the Favor expended. 
 
-**Break That** Complexity: 3 Favor: (#, maximum 5) Range: Touch Duration: Instant AP: 3 Effect: You carve a 1 Pace wide and tall hole that is Paces (#) long in a straight line in front of you. This ignores Hardness (2), and creatures in this line roll a Willpower vs. Dexterity contest; on a failure, they gain a Minor Wound. 
+**Break That** 
+Complexity: 3 
+Favor: (#, maximum 5) 
+Range: Touch 
+Duration: Instant 
+AP: 3 
+Effect: You carve a 1 Pace wide and tall hole that is Paces (#) long in a straight line in front of you. This ignores Hardness (2), and creatures in this line roll a Willpower vs. Dexterity contest; on a failure, they gain a Minor Wound. 
 
-**Shoulder Our Burdens** Complexity: 4 Favor: (#, minimum of 10) Range: Paces (5) Duration: Persist (#) AP: 5 Effect: For a Duration equal to the favor you expend over 10, all damage dealt within the range is quartered and redirected to you.
+**Shoulder Our Burdens** 
+Complexity: 4 
+Favor: (#, minimum of 10) 
+Range: Paces (5) 
+Duration: Persist (#) 
+AP: 5 
+Effect: For a Duration equal to the favor you expend over 10, all damage dealt within the range is quartered and redirected to you.

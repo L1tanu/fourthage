@@ -35,9 +35,9 @@ Attacking is done by rolling a 1d20 + [[00 Characters#^91b5a0|Ability Score]]. T
 3. The defender rolls.
 4. If successful, the attacker rolls damage (including the [[00 Characters#^91b5a0|Ability Score]] used to make the attack) and states the damage type they are dealing, which is reduced by Block, then DR.
 # Maneuvers
-A Maneuver is a variation of any standard attack taken during your turn, provided your target is within range of the weapon being used. Everyone can perform them with Unarmed weapons, but [[00 Characters#^7f706f|Abilities]] are required to perform them with any other weapon type. You must be wielding at least one Unarmed weapon to perform the following Maneuvers: ^eb9045
+A Maneuver is a variation of any standard attack taken during your turn, provided your target is within range of the weapon being used. Everyone can perform them with Unarmed weapons, but [[00 Characters#^7f706f|Abilities]] are required to perform them with any other weapon type. Unless specified elsewhere, the Contest used for a Maneuver is determined by the weapon. You must be wielding at least one Unarmed weapon to perform the following Maneuvers: ^eb9045
 - **Grapple**: The defender has the [[04 Conditions#^6dd9a3|Tethered]] (1) condition applied to them with the attacker as the source. This condition can be ended by the defender performing an [[01 Combat#^be2dd8|Interaction]] on their turn and succeeding in a Strength vs. Strength [[01 Combat#^0ee214|Contest]] against the attacker.
-- **Trip**: The defender halves their Speed until the end of the next round.
+- **Trip**: The defender suffers Slowed with Persist (1).
 - **Disarm**: The target is forced to drop an item held in their hand (attacker’s choice) within one Pace of themselves (attacker’s choice).
 - **Push/Pull**: The attacker moves the defender horizontally by two Paces (attacker’s choice).
 
@@ -48,7 +48,7 @@ The squares in front of a character, in the direction they are facing, and withi
 
 ^735ba4
 
-On your turn, you can expend 1 [[01 Combat#^72491d|AP]] to gain movement equal to the character’s Speed. When you expend [[01 Combat#^72491d|AP]] to take the Movement action, you can freely change where you are facing (this is not Pivoting). Every other diagonal taken costs two Paces. A character cannot move through another’s occupied space. ^af6cbd
+On your turn, you can expend 1 [[01 Combat#^72491d|AP]] to gain movement equal to the character’s Speed. When you expend [[01 Combat#^72491d|AP]] to take the Move action, you can freely change where you are facing (this is not Pivoting). Every other diagonal taken costs two Paces. A character cannot move through another’s occupied space. If you expend AP during your Move action, the remainder of your movement is wasted.^af6cbd
 
 Additionally, at the start of your turn, if you are not on a [[01 Combat#^85496d|Threatened]] space you can take Movement equal to your Speed without expending [[01 Combat#^72491d|AP]].
 

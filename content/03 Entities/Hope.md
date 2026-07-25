@@ -26,16 +26,46 @@ Now there exists few depictions of what people view as Hope, but some imagery fr
 ## Acts of Favor
 - Anything (1 Favor)
 ## Invocations
-**Coin Toss** Complexity: 1 Favor: 5 Range: Paces (5) Duration: Persist (1) AP: 1 Effect: You choose a target within range, the next Contest or Save the target makes is a 1d2 instead of a 1d20, and modifiers (including Advantage and Disadvantage) do not apply. On a 1, you succeed. On a 2, you fail. 
+**Coin Toss** 
+Complexity: 1 
+Favor: 5 
+Range: Paces (5) 
+Duration: Persist (1) 
+AP: 1 
+Effect: You choose a target within range, the next Contest or Save the target makes is a 1d2 instead of a 1d20, and modifiers (including Advantage and Disadvantage) do not apply. On a 1, you succeed. On a 2, you fail. 
 
-**Windfall** Complexity: 2 Favor: 10 Range: Paces (5) Duration: Persist (10) AP: 1 Effect: The next Inspiration or Push the target would use, increase the Advantage (#) by 1. 
+**Windfall** 
+Complexity: 2 
+Favor: 10 
+Range: Paces (5) 
+Duration: Persist (10) 
+AP: 1 
+Effect: The next Inspiration or Push the target would use, increase the Advantage (#) by 1. 
 
-**Charm** Complexity: 3 Favor: 25 Range: Touch Duration: One day AP: 5 Effect: You fashion a charm, imbuing it with either well wishes or the vilest of curses. Choose one of the following effects and attach it to an item of your choice:
+**Charm** 
+Complexity: 3 
+Favor: 25 
+Range: Touch 
+Duration: One day 
+AP: 5 
+Effect: You fashion a charm, imbuing it with either well wishes or the vilest of curses. Choose one of the following effects and attach it to an item of your choice:
 - +1 modifier to Contests and Saves.
 - -1 modifier to Contests and Saves.
 - A free Inspiration, ending the effect.
 - The next Wound taken is increased a tier, ending the effect.
 
-**The Great Exchange** Complexity: 4 Favor: 20 Range: Paces (10) Duration: Persist (10) AP: 5 Effect: You choose a target within range, granting it Disadvantage (1) and another target Advantage (1) on their next Contest or Save. 
+**The Great Exchange** 
+Complexity: 4 
+Favor: 20 
+Range: Paces (10) 
+Duration: Persist (10) 
+AP: 5 
+Effect: You choose a target within range, granting it Disadvantage (1) and another target Advantage (1) on their next Contest or Save. 
 
-**Plead** Complexity: 5 Favor: 1-100 Range: ??? Duration: ??? AP: 1 Effect: You make a wish.
+**Plead** 
+Complexity: 5 
+Favor: 1-100 
+Range: ??? 
+Duration: ??? 
+AP: 1 
+Effect: You make a wish.

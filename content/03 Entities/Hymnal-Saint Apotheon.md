@@ -29,11 +29,29 @@ Despite seeming like an obvious contradiction to their stated goal, a large numb
 - A tome of Bulk (1) or higher, containing valuable insights (5 Favor)
 - An original literary work, thesis, or treatise signed by the author (10 Favor)
 # **Invocations**
-**Ex Hypothesi** Complexity: 1 Favor: 1 Range: Touch Duration: Persist (1) AP: 1 Effect: You open a target’s mind to grander insights, allowing them to use your Willpower score in place of their own if they would roll for a Skill which you possess. 
+**Ex Hypothesi** 
+Complexity: 1 
+Favor: 1 
+Range: Touch 
+Duration: Persist (1) 
+AP: 1 
+Effect: You open a target’s mind to grander insights, allowing them to use your Willpower score in place of their own if they would roll for a Skill which you possess. 
 
-**Immunitas** Complexity: 2 Favor: (#) Range: Paces (5) Duration: Persist (1) AP: 2 Effect: Spells with a Mana or Favor cost equal to or lower than the Favor (#) expended cannot affect the target for the duration. 
+**Immunitas** 
+Complexity: 2 
+Favor: (#) 
+Range: Paces (5) 
+Duration: Persist (1) 
+AP: 2 
+Effect: Spells with a Mana or Favor cost equal to or lower than the Favor (#) expended cannot affect the target for the duration. 
 
-**Ars Notoria** Complexity: 3 Favor: 8 Range: Touch Duration: Until next rest AP: 3 Effect: You may cast this spell as part of the _Triage a wound_ rest action. When you do so, you may create a temporary Scar by engraving sigils onto a target. When you do so, pick one sigil from the Sigil Table. A target cannot have more than one sigil at a time, and the Scar fades completely after resting.
+**Ars Notoria** 
+Complexity: 3 
+Favor: 8 
+Range: Touch 
+Duration: Until next rest 
+AP: 3 
+Effect: You may cast this spell as part of the _Triage a wound_ rest action. When you do so, you may create a temporary Scar by engraving sigils onto a target. When you do so, pick one sigil from the Sigil Table. A target cannot have more than one sigil at a time, and the Scar fades completely after resting.
 
 | Sigil            | Boons                           |
 | ---------------- | ------------------------------- |
@@ -43,6 +61,18 @@ Despite seeming like an obvious contradiction to their stated goal, a large numb
 | Sigil of Sundra  | Gain +1 DR to all damage types. |
 | Sigil of Ista    | Gain +1 Maximum AP.             |
 
-**Causa Verior** Complexity: 4 Favor: (#) Range: Paces (5) Duration: Persist (1) AP: 3 Effect: For the duration, all spells cast within range cost (#) less Mana or Favor, to a maximum of half their minimum cost. This does not affect additional casts of Causa Verior. 
+**Causa Verior** 
+Complexity: 4 
+Favor: (#) 
+Range: Paces (5) 
+Duration: Persist (1) 
+AP: 3 
+Effect: For the duration, all spells cast within range cost (#) less Mana or Favor, to a maximum of half their minimum cost. This does not affect additional casts of Causa Verior. 
 
-**Dénouement** Complexity: 5 Favor: 20 Range: Self Duration: 1 week AP: 5 Effect: Visions haunt you in your waking hours, pursuing you into sleep. You gain the _Night Terrors_ flaw for the duration; if you already had it, you only recover a quarter of your Fatigue when resting. These visions grant you supernatural insights into ongoing world events, although not all of them will be relevant or comprehensible to you.
+**Dénouement** 
+Complexity: 5 
+Favor: 20 
+Range: Self 
+Duration: 1 week 
+AP: 5 
+Effect: Visions haunt you in your waking hours, pursuing you into sleep. You gain the _Night Terrors_ flaw for the duration; if you already had it, you only recover a quarter of your Fatigue when resting. These visions grant you supernatural insights into ongoing world events, although not all of them will be relevant or comprehensible to you.

@@ -29,15 +29,45 @@ Today, Tehom Elis is worshipped in cults dispersed across Yiegdra who refer to h
 - A live beast that is larger than a human (10 Favor)
 - A live monster (25 Favor)
 # **Invocations**
-**Mastery over Small Things** Complexity: 1 Favor: 1 Range: Earshot Duration: Persist (6) AP: 1 Effect: You command a small animal or insect to do your bidding. If the creature is not hostile towards you, it will comply to the best of its ability. If it is hostile, it suffers Dazed (1). 
+**Mastery over Small Things** 
+Complexity: 1 
+Favor: 1 
+Range: Earshot 
+Duration: Persist (6) 
+AP: 1 
+Effect: You command a small animal or insect to do your bidding. If the creature is not hostile towards you, it will comply to the best of its ability. If it is hostile, it suffers Dazed. 
 
-**Locust Swarm** Complexity: 2 Favor: 3 Range: Paces (5) Duration: Persist (1) AP: 2 Effect: Targets within Sphere (3) suffer the Blinded (1) and Unsteady (1) conditions. 
+**Locust Swarm** 
+Complexity: 2 
+Favor: 3 
+Range: Paces (5) 
+Duration: Persist (1) 
+AP: 2 
+Effect: Targets within Sphere (3) suffer the Blinded (1) and Unsteady conditions. 
 
-**Flock of Crows** Complexity: 3 Favor: 5 Range: Paces (5) Duration: Instant AP: 3 Effect: Select one target within the range. They must succeed a Willpower vs. Dexterity contest; on a failure, deepen all Minor wounds up to Moderate. 
+**Flock of Crows** 
+Complexity: 3
+Favor: 5 
+Range: Paces (5) 
+Duration: Instant 
+AP: 3 
+Effect: Select one target within the range. They must succeed a Willpower vs. Dexterity contest; on a failure, deepen all Minor wounds up to Moderate. 
 
-**Fashioned from Fragments** Complexity: 4 Favor: 10 Range: Touch Duration: 1 Week AP: 5 Effect: You resurrect an inhuman corpse as an animalistic Gallu. It retains its Strength, halves its Dexterity and Willpower, and becomes a Hireling that does not require rations and cannot be demoralized. Living Hirelings are forced to make a morale save with Disadvantage (1) or immediately leave your service. 
+**Fashioned from Fragments** 
+Complexity: 4 
+Favor: 10 
+Range: Touch 
+Duration: 1 Week 
+AP: 5 
+Effect: You resurrect an inhuman corpse as an animalistic Gallu. It retains its Strength, halves its Dexterity and Willpower, and becomes a Hireling that does not require rations and cannot be demoralized. Living Hirelings are forced to make a morale save with Disadvantage (1) or immediately leave your service.
 
-**Stillbirth** Complexity: 5 Favor: 10 Range: Self Duration: Instant AP: 1 Effect: You become a Gallu while still living, healing all Minor and Moderate Wounds, and Scarring one Major Wound. Your transformation is more violent than other Gallu. Roll a 1d10, gaining a mutation from the table:
+**Stillbirth** 
+Complexity: 5 
+Favor: 10 
+Range: Self 
+Duration: Instant 
+AP: 1 
+Effect: You become a Gallu while still living, healing all Minor and Moderate Wounds, and Scarring one Major Wound. Your transformation is more violent than other Gallu. Roll a 1d10, gaining a mutation from the table:
 
 |     | Stillborn Gallu Traits                                                                                                         |
 | --- | ------------------------------------------------------------------------------------------------------------------------------ |

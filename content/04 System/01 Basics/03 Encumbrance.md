@@ -20,17 +20,17 @@ Once a character has exited combat, their HP returns to full.
 # Wounds
 Wounds come in one of three severities (Minor, Moderate, and Major) and can be upgraded or downgraded. A character gains a Minor Wound after reaching 0 HP, the Minor Wound can be placed in an empty Encumbrance slot, replace a held item (now dropped), or be combined with an existing Minor or Moderate Wound to upgrade its severity (Minor to Moderate, Moderate to Major). ^7b80a0
 
-If you choose to have a Wound become Major, you do not take any HP damage beyond the amount done to reduce your HP to 0. The amount ignored this way determines the result in the “Overkill Amount” column of the table below. Until healed, the character carrying the Wound will suffer its effects. ^509b12
+If you choose to have a Wound become Major, you do not take any HP damage beyond the amount done to reduce your HP to 0. The amount ignored this way determines the result in the “Overkill" column of the table below. Until healed, the character carrying the Wound will suffer its effects. ^509b12
 
 | Overkill                 | Description      | Additional Effects                                                                                                      |
 | ------------------------ | ---------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Surface<br>(1-5)         | Torn Muscle      | -2 on d20 rolls to make Melee Attacks.                                                                                  |
-|                          | Whiplash         | Gain the Dazed (1) Condition.                                                                                           |
+|                          | Whiplash         | Gain the Dazed Condition.                                                                                               |
 |                          | Concussion       | -2 on all d20 rolls.                                                                                                    |
 |                          | Crushed Fingers  | -4 on all d20 rolls which use that hand.                                                                                |
 |                          | Damaged Ear      | -2 on d20 rolls involving hearing. Whenever you move further than 4 Paces in a turn, you cannot move on your next turn. |
 | Aggravated<br>(6-10)     | Damaged Arm      | The Damaged Arm cannot be used. You drop any items in that arm's hand immediately.                                      |
-|                          | Damaged Leg      | Gain the Prone Condition.                                                                                               |
+|                          | Damaged Leg      | Gain the Slowed Condition.                                                                                              |
 |                          | Damaged Ribs     | At the end of every turn, if you moved further than 4 Paces, you gain a Minor Wound.                                    |
 |                          | Damaged Jaw      | -4 on all d20 rolls involving speech. Your maximum words per turn is 5.                                                 |
 |                          | Damaged Eye      | -2 on d20 rolls to make Ranged Attacks or rolls using that eye.                                                         |

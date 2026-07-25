@@ -2,22 +2,31 @@
 publish: true
 ---
 # Spell and Contraption Descriptors
-The following describe how the majority of spells and contraptions are detailed and handled. Each Spell and Contraption will be constructed out of a number of keywords, each with a specific and clearly defined meaning. For spells, unless specified elsewhere, the attacker begins a Willpower vs. Willpower [[01 Combat#^0ee214|Contest]] against the targeted defenders or any targets within the selected area. If the target of a Spell or Contraption wins a [[01 Combat#^0ee214|Contest]] caused by being subject to an AOE, they can choose to freely move to the nearest open space outside of the AOE, or as close to it as possible.
-## Target
+The following describe how the majority of spells and contraptions are detailed and handled. Each Spell and Contraption will be constructed out of a number of keywords, each with a specific and clearly defined meaning. For spells, unless specified elsewhere, the attacker begins a Willpower vs. Willpower [[01 Combat#^0ee214|Contest]] against the targeted defenders or any targets within the selected area.
+
+When a character would be subject to the AOE of a Spell or Contraption when it is first cast or triggered, they [[01 Combat#^0ee214|Contest]] it. If they succeed, they can freely move outside the range of the AOE by the shortest path possible.
+
+## Range
 - Self: Targets the user/caster.
 - Touch: Targets adjacent.
-- Ranged: Targets any within the listed range.
-- AOE: The origin of the AOE.
+- Paces (#): Targets any within the listed range.
+- Eyesight: Targets anyone within line of sight.
+- Earshot: Targets anyone who could hear you. *(/shout)*
+## Anchor
+- Targets (#): A selected Target that is within the listed (#)
+- AOE: The static origin of the AOE.
 	- Sphere (#) Filled sphere with radius #.
 	- Surround (#) Hollow sphere with outer radius #. 
 	- Line (#*3) 1 x 1 x (#*3) line.
 	- Cone (#) Flat cone extending # paces.
+- Aura (#): A Sphere (#) that follows a living, willing target.
+	- While starting their turn within an Aura, targets Contest the Caster. If they succeed, they can freely move outside the range of the Aura by the shortest path possible. If they fail, they suffer its effects.
 ## Duration
-- Instant: The effect is resolved when it is cast and ends when the turn does.
+- Instant: The effect is resolved when it is cast and ends when the turn it was Cast on does.
 - Persist (#): The effect lasts until the # of rounds have passed.
 	- (ie, Persist (1) means the effect lasts until the end of the current round.)
-	- Persist applied to an AOE causes the AOE itself to Persist, not the effect applied by it. An AOE applied to a living target ends when they win a Contest against the source at the end of the round.
-	- Persist applied to specific targets causes the effect to be reapplied at the end of the round if the target fails the Contest again.
+	- At the start of a character's turn, they check whether they are still under the effects of the source (i.e., still within the AOE, or by losing a [[01 Combat#^0ee214|Contest]] against it again if targeted). If so, the effect applies to them for the remainder of their turn.
+	- The target's condition ends early if the source itself is removed or the target is otherwise freed from it (ie, putting out a fire, untangling their feet) before the check would occur.
 ## Trigger
 - Trip (#): Before entering the # radius, the target rolls the Trigger’s Save (Always 10+Willpower vs. Willpower). If they fail, resolve the effect. If they succeed, they know that movement will cause something to happen, but not what, and can choose to rescind their movement.
 - Fuse (#): When set, this will wait a # of your turns, reducing by 1 at the end of your turn and activating when it is reduced to 0.

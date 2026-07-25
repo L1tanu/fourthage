@@ -21,4 +21,5 @@ Objects are ranked roughly into categories to provide an easier time and provide
 - Solid Metal
 # Environmental Effects
 A moonless night or dark cave inflicts [[04 Conditions#^df7b65|Blinded (0)]].
-A moonlit night inflicts [[04 Conditions#^df7b65|Blinded (0)]].
+A moonlit night inflicts [[04 Conditions#^df7b65|Blinded (5)]].
+The deck of a ship at sea in a storm inflicts Unsteady.

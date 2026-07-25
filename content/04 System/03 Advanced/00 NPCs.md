@@ -2,13 +2,13 @@
 publish: true
 ---
 # Hirelings
-NPC horses, helpers, and anything in between can be considered Hirelings. Hirelings do not have any stat blocks and thus do not participate in combat encounters. You can directly control a number of Hirelings equal to your Reason [[00 Characters#^50f785|Skill Score]]. Some examples of Hirelings are as follows: ^02a710
+NPC horses, helpers, and anything in between can be considered Hirelings. Hirelings *do not* have any stat blocks and thus *do not* participate in combat encounters. You can directly control a number of Hirelings equal to your Reason [[00 Characters#^50f785|Skill Score]]. Some examples of Hirelings are as follows: ^02a710
 - Workers have Skills (typically one), they add their listed bonus to the roll against the [[00 Characters#^35acfd|Challenge Clock]].
 - Horses can give you 5 [[03 Encumbrance|Encumbrance]] to carry Equipment with, and reduce the [[01a Journeys#^8d54ba|Travel Challenge Clock]] segment by one.
 
 Multiple Hirelings may provide their bonus to any given [[00 Characters#^35acfd|Challenge Clock]]. Every Hireling has a cost that must be paid when they are utilized in Projects. If the cost is unpaid, they will likely defect, refuse, or die.
 
-Outside of specific circumstances, Hirelings should not be included in combat. The exception to this comes with Hirelings that explicitly list a statblock that are being used in the defense of an area.
+Outside of specific circumstances, Hirelings should *not* be included in combat. The exception to this comes with Hirelings that explicitly list a statblock that are being used in the defense of an area.
 # NPC Statblocks
 Come in two variations: Fodder and Formidable. Fodder NPCs do not have an [[03 Encumbrance|Encumbrance]], just a single static HP pool and only use one reaction to being attacked (evade/block/counter). They are intended as wolves in a pack or a simple guardsman. Formidable NPCs have an [[03 Encumbrance|Encumbrance]], but typically not a full one. They are a bandit king or cave bear.
 # NPC Morale

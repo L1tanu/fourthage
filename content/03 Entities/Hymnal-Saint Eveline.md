@@ -28,12 +28,42 @@ In Hazanite lands, Hymnal-Saint Eveline is venerated as a guardian of their bord
 - A simple metal ingot of Bulk (1) or higher (5 Favor)
 - Equipment forged of metal with Bulk (2) or higher (10 Favor)
 # **Invocations**
-**Defy Trespass** Complexity: 1 Favor: 1 Range: Paces (1) Duration: Persist (1) AP: 1 Effect: You create a barrier of force that is 3 Paces wide and tall with a Hardness (0). Creatures attempting to pass through it must succeed a Willpower vs. Strength contest; on a failure, they must spend 1 additional AP to press through the barrier or end their movement early. 
+**Defy Trespass** 
+Complexity: 1 
+Favor: 1 
+Range: Paces (1) 
+Duration: Persist (1) 
+AP: 1 
+Effect: You create a barrier of force that is 3 Paces wide and tall with a Hardness (0). Creatures attempting to pass through it must succeed a Willpower vs. Strength contest; on a failure, they must spend 1 additional AP to press through the barrier or end their movement early. 
 
-**Repel Strike** Complexity: 2 Favor: 2 Range: Touch Duration: Instant AP: 2 Effect: You perform a Counter against an attack directed towards you or an adjacent target. It uses your Willpower in place of Strength or Dexterity, and a 1d6 for damage. 
+**Repel Strike** 
+Complexity: 2 
+Favor: 2 
+Range: Touch 
+Duration: Instant 
+AP: 2 
+Effect: You perform a Counter against an attack directed towards you or an adjacent target. It uses your Willpower in place of Strength or Dexterity, and a 1d6 for damage. 
 
-**Condemn** Complexity: 3 Favor: 5 Range: Touch Duration: Persist (3) AP: 3 Effect: You encase the target in a prison of wrought iron with Hardness (3) and a range of Surround (1). They must also succeed a Willpower vs. Strength contest at the end of their turn; on a failure, they gain Bleeding (1). 
+**Condemn** 
+Complexity: 3 
+Favor: 5 
+Range: Touch 
+Duration: Persist (3) 
+AP: 3 
+Effect: You encase the target in a prison of wrought iron with Hardness (3) and a range of Surround (1). They must also succeed a Willpower vs. Strength contest at the end of their turn; on a failure, they gain Bleeding (1). 
 
-**Tip of Night** Complexity: 4 Favor: 10 Range: Touch Duration: Persist (5) AP: 2 Effect: You prick the target with an iron spike, corroding them inside. During your turn, you may issue one command to the target by speaking it aloud: if they refuse to comply during their turn, you may instantly deal 1d8 damage that bypasses DR. 
+**Tip of Night** 
+Complexity: 4 
+Favor: 10 
+Range: Touch 
+Duration: Persist (5) 
+AP: 2 
+Effect: You prick the target with an iron spike, corroding them inside. During your turn, you may issue one command to the target by speaking it aloud: if they refuse to comply during their turn, you may instantly deal 1d8 damage that bypasses DR. 
 
-**Interminable Shackles** Complexity: 5 Favor: 20 Range: Touch Duration: 1 week AP: 5 Effect: The target must succeed a Willpower vs. Strength contest; on a failure, they are imprisoned under a mountain of jagged iron with Hardness (4) and a range of Surround (1).
+**Interminable Shackles** 
+Complexity: 5 
+Favor: 20 
+Range: Touch 
+Duration: 1 week 
+AP: 5 
+Effect: The target must succeed a Willpower vs. Strength contest; on a failure, they are imprisoned under a mountain of jagged iron with Hardness (4) and a range of Surround (1).

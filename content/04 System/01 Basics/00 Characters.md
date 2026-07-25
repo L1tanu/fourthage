@@ -72,5 +72,5 @@ Your character can grow in more than just the way they fight. Certain individual
   
 You can see the list of Skills and Abilities available to you [here](https://docs.google.com/spreadsheets/d/1rxVHNMflJ4FEAns6oIkFJAZI_9XV0AgtrS3-Zt6mtS8/edit?gid=220043356#gid=220043356).
 # Alternative Stats
-A character’s speed begins at 5.
-A character's maximum action points (AP) begins at 5.
+A character’s Speed begins at 5.
+A character's maximum Action Points (AP) begins at 5.

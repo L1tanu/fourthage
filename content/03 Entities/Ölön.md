@@ -29,12 +29,41 @@ In the Vemarian steppe and the countryside of the Gray Marches beyond, Ölön is
 - The runt of the litter, still living (15 Favor)
 
 # **Invocations**
-**Food Preparation** Complexity: 1 Favor: 1 Range: Touch Duration: Until next rest AP: 1 Effect: You preserve Bulk (1) of rations. If used for the _Cooking a meal_ rest action, they count as Bulk (2) rations. 
+**Food Preparation** 
+Complexity: 1 
+Favor: 1 
+Range: Touch 
+Duration: Until next rest 
+AP: 1 
+Effect: You preserve Bulk (1) of rations. If used for the _Cooking a meal_ rest action, they count as Bulk (2) of rations. 
 
-**Bloodhound** Complexity: 2 Favor: 2 Range: Paces (5) Duration: Until next rest AP: 1 Effect: You can smell blood within range, allowing you to spot it through darkness and obscurement. You can identify if the blood came from the same source by scent. 
+**Bloodhound** 
+Complexity: 2 
+Favor: 2 
+Range: Paces (5) 
+Duration: Until next rest AP: 1 
+Effect: You can smell blood within range, allowing you to spot it through darkness and obscurement. You can identify if the blood came from the same source by scent. 
 
-**Sink Your Teeth In** Complexity: 2 Favor: (#) Range: Touch Duration: Persist (#) AP: 1 Effect: Tether (0) yourself to the target for a Duration up to the Favor you spend. You can end the Tether (0) Condition at any time. 
+**Sink Your Teeth In** 
+Complexity: 2 
+Favor: (#) 
+Range: Touch 
+Duration: Persist (#) 
+AP: 1 
+Effect: Tether (0) yourself to the target for a Duration up to the Favor you spend. You can end the Tether (0) Condition at any time. 
 
-**Exsanguinate** Complexity: 3 Favor: 5 Range: Touch Duration: Instant AP: 1 Effect: The target suffers Bleeding (2). 
+**Exsanguinate** 
+Complexity: 3 
+Favor: 5 
+Range: Touch 
+Duration: Instant 
+AP: 1 
+Effect: The target suffers Bleeding (2). 
 
-**To Love Is To Be Eaten** Complexity: 4 Favor: 15 Range: Touch Duration: Instant AP: 2 Effect: If the target is Unconscious or Dying, they instantly die and you clear all Fatigue.
+**To Love Is To Be Eaten**
+Complexity: 4 
+Favor: 15 
+Range: Touch 
+Duration: Instant 
+AP: 2 
+Effect: If the target is Unconscious or Dying, they instantly die and you clear all Fatigue.

@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fourth Age - Thaumaturgy Casting</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+(function(){
+  function detectTheme(){
+    // 1. Quartz's own darkmode toggle stores this in localStorage, shared
+    //    across same-origin frames, so we can read it directly.
+    try {
+      var stored = localStorage.getItem("theme");
+      if(stored === "light" || stored === "dark") return stored;
+    } catch(e){}
+    // 2. Fall back to the attribute Quartz sets on <html>, read from the
+    //    parent page if we're embedded same-origin.
+    try {
+      if(window.parent && window.parent !== window){
+        var parentTheme = window.parent.document.documentElement.getAttribute("saved-theme");
+        if(parentTheme === "light" || parentTheme === "dark") return parentTheme;
+      }
+    } catch(e){}
+    // 3. Last resort: the browser/OS preference.
+    return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+  }
+  document.documentElement.setAttribute("data-theme", detectTheme());
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1b1612;
+    --ink-2:#2a221c;
+    --panel:#2a221c;
+    --panel-2:#1b1612;
+    --line:#4a3a2f;
+    --line-soft:rgba(74,58,47,0.5);
+    --gold:#a88a5c;
+    --gold-soft:#7a5c3a;
+    --violet:#7a5c3a;
+    --violet-soft:rgba(122,92,58,0.35);
+    --parchment:#f0e3c8;
+    --muted:#d8c7a6;
+    --muted-2:#a88a5c;
+    --highlight:rgba(210,180,120,0.14);
+    --text-highlight:#d6b25a44;
+    --good:#8a9c5b;
+  }
+
+  :root[data-theme="light"]{
+    --ink:#f3ead3;
+    --ink-2:#e5e5e5;
+    --panel:#e5e5e5;
+    --panel-2:#f3ead3;
+    --line:#b8b8b8;
+    --line-soft:rgba(184,184,184,0.5);
+    --gold:#284b63;
+    --gold-soft:#84a59d;
+    --violet:#84a59d;
+    --violet-soft:rgba(132,165,157,0.25);
+    --parchment:#2b2b2b;
+    --muted:#4e4e4e;
+    --muted-2:rgba(78,78,78,0.7);
+    --highlight:rgba(143,159,169,0.15);
+    --text-highlight:#fff23688;
+    --good:#84a59d;
+  }
+
+  *{box-sizing:border-box;}
+
+  html,body{
+    margin:0;
+    min-height:100vh;
+    background:
+      var(--ink);
+    color:var(--parchment);
+    font-family:'Fraunces',serif;
+    font-feature-settings:"tnum" 1;
+  }
+
+  .wrap{
+    max-width:1180px;
+    margin:0 auto;
+    padding:40px 24px 80px;
+  }
+
+  header.top{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    gap:16px;
+    flex-wrap:wrap;
+    border-bottom:1px solid var(--line-soft);
+    padding-bottom:22px;
+    margin-bottom:28px;
+  }
+  header.top .brand{
+    display:flex;
+    align-items:center;
+    gap:14px;
+  }
+  header.top .mark{
+    width:38px;height:38px;flex:none;
+  }
+  header.top h1{
+    font-family:'Fondamento',serif;
+    font-weight:600;
+    font-size:1.55rem;
+    letter-spacing:0.02em;
+    margin:0;
+    color:var(--parchment);
+  }
+  header.top h1 span{
+    color:var(--gold);
+  }
+  header.top .sub{
+    font-size:0.82rem;
+    color:var(--muted);
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+  }
+
+  nav.tabs{
+    display:flex;
+    gap:4px;
+    margin-bottom:30px;
+    border-bottom:1px solid var(--line-soft);
+  }
+  nav.tabs button{
+    appearance:none;
+    background:none;
+    border:none;
+    color:var(--muted);
+    font-family:'Fondamento',serif;
+    font-size:0.92rem;
+    letter-spacing:0.03em;
+    padding:10px 18px 14px;
+    cursor:pointer;
+    position:relative;
+    top:1px;
+    transition:color .15s ease;
+  }
+  nav.tabs button:hover{ color:var(--parchment); }
+  nav.tabs button.active{
+    color:var(--gold);
+    border-bottom:2px solid var(--gold);
+  }
+
+  .view{ display:none; }
+  .view.active{ display:block; animation:fade .25s ease; }
+  @keyframes fade{ from{opacity:0; transform:translateY(3px);} to{opacity:1; transform:none;} }
+
+  /* ---------- builder layout ---------- */
+  .builder{
+    display:grid;
+    grid-template-columns:1.15fr 0.85fr;
+    gap:26px;
+    align-items:start;
+  }
+  @media (max-width:880px){
+    .builder{ grid-template-columns:1fr; }
+  }
+
+  .card{
+    background:linear-gradient(180deg, var(--panel), var(--panel-2));
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:22px 22px 24px;
+  }
+  .card + .card{ margin-top:20px; }
+
+  .card h2{
+    font-family:'Fondamento',serif;
+    font-weight:600;
+    font-size:0.88rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--gold);
+    margin:0 0 4px;
+  }
+  .card .hint{
+    font-size:0.82rem;
+    color:var(--muted);
+    margin:0 0 16px;
+    line-height:1.45;
+  }
+
+  .field-row{
+    display:grid;
+    grid-template-columns: minmax(0,1fr) 92px 96px;
+    gap:10px;
+    align-items:center;
+    margin-bottom:12px;
+  }
+  .field-row.duration-row .qty-wrap,
+  .field-row .qty-wrap{ position:relative; }
+
+  label.field-label{
+    font-size:0.78rem;
+    color:var(--muted);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    display:block;
+    margin-bottom:6px;
+  }
+
+  select, input[type=number], input[type=text]{
+    width:100%;
+    background:var(--ink-2);
+    border:1px solid var(--line);
+    color:var(--parchment);
+    border-radius:7px;
+    padding:9px 10px;
+    font-family:'Fraunces',serif;
+    font-size:0.92rem;
+    transition:border-color .15s ease, box-shadow .15s ease;
+  }
+  select:focus, input:focus{
+    outline:none;
+    border-color:var(--violet);
+    box-shadow:0 0 0 3px rgba(122,92,58,0.22);
+  }
+  select:disabled, input:disabled{
+    opacity:0.35;
+    cursor:not-allowed;
+  }
+  input[type=number]{ font-family:'JetBrains Mono',monospace; text-align:center; }
+
+  .cost-pill{
+    font-family:'JetBrains Mono',monospace;
+    font-size:0.88rem;
+    text-align:right;
+    padding:9px 10px;
+    color:var(--muted);
+    white-space:nowrap;
+  }
+  .cost-pill.neg{ color:var(--good); }
+  .cost-pill.pos{ color:var(--gold); }
+
+  .effect-row{
+    display:grid;
+    grid-template-columns: minmax(0,1fr) 78px 96px;
+    gap:10px;
+    align-items:center;
+    margin-bottom:10px;
+  }
+  .effect-row:last-child{ margin-bottom:0; }
+
+  .divider{
+    height:1px;
+    background:var(--line-soft);
+    margin:18px 0;
+  }
+
+  /* AP + total row */
+  .ap-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+  }
+  .ap-row .ap-input{
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .ap-row .ap-input input{ width:70px; }
+  .ap-note{
+    font-family:'JetBrains Mono',monospace;
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .ap-note b{ color:var(--good); font-weight:600; }
+
+  /* ---------- spell card preview ---------- */
+  .spellcard{
+    position:sticky;
+    top:24px;
+    background:
+      radial-gradient(ellipse 320px 220px at 50% -10%, rgba(122,92,58,0.16), transparent 65%),
+      linear-gradient(180deg, var(--panel), transparent);
+    border:1px solid var(--gold-soft);
+    border-radius:14px;
+    padding:26px 24px 22px;
+  }
+  .spellcard .name-input{
+    width:100%;
+    background:none;
+    border:none;
+    border-bottom:1px solid var(--line);
+    color:var(--parchment);
+    font-family:'Fondamento',serif;
+    font-size:1.25rem;
+    letter-spacing:0.01em;
+    padding:4px 2px 10px;
+    margin-bottom:20px;
+  }
+  .spellcard .name-input:focus{ outline:none; border-color:var(--gold); }
+  .spellcard .name-input::placeholder{ color:var(--muted-2); font-family:'Fraunces',serif; font-size:1rem;}
+
+  .mana-total{
+    text-align:center;
+    padding:14px 0 18px;
+    margin-bottom:4px;
+    border-bottom:1px solid var(--line-soft);
+  }
+  .mana-total .num{
+    font-family:'JetBrains Mono',monospace;
+    font-size:2.6rem;
+    font-weight:700;
+    color:var(--parchment);
+    line-height:1;
+  }
+  .mana-total .num.negative{ color:var(--good); }
+  .mana-total .lbl{
+    font-size:0.7rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin-top:8px;
+  }
+
+  .stat-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px 14px;
+    margin:22px 0 6px;
+  }
+  .stat{
+    background:var(--ink-2);
+    border:1px solid var(--line-soft);
+    border-radius:8px;
+    padding:9px 11px;
+  }
+  .stat .k{
+    font-size:0.66rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--muted-2);
+    margin-bottom:3px;
+  }
+  .stat .v{
+    font-size:0.9rem;
+    color:var(--parchment);
+    font-weight:500;
+  }
+
+  .effects-list{
+    margin-top:14px;
+    padding-top:14px;
+    border-top:1px solid var(--line-soft);
+  }
+  .effects-list .k{
+    font-size:0.66rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--muted-2);
+    margin-bottom:8px;
+  }
+  .effects-list ul{
+    list-style:none;
+    margin:0; padding:0;
+    display:flex; flex-direction:column; gap:6px;
+  }
+  .effects-list li{
+    display:flex;
+    justify-content:space-between;
+    font-size:0.86rem;
+    color:var(--parchment);
+  }
+  .effects-list li .e-cost{
+    font-family:'JetBrains Mono',monospace;
+    color:var(--gold);
+    font-size:0.82rem;
+  }
+  .effects-list .empty{
+    color:var(--muted-2);
+    font-style:italic;
+    font-size:0.85rem;
+  }
+
+  .copy-btn{
+    appearance:none;
+    width:100%;
+    margin-top:20px;
+    padding:12px 18px;
+    border:1px solid var(--gold-soft);
+    border-radius:8px;
+    background:linear-gradient(180deg, rgba(168,138,92,0.14), rgba(168,138,92,0.05));
+    color:var(--gold);
+    font-family:'Fondamento',serif;
+    font-size:0.86rem;
+    letter-spacing:0.05em;
+    text-transform:uppercase;
+    cursor:pointer;
+    transition:background .2s ease, color .2s ease, border-color .2s ease;
+  }
+  .copy-btn:hover{
+    background:linear-gradient(180deg, rgba(168,138,92,0.22), rgba(168,138,92,0.10));
+  }
+  .copy-btn:active{ transform:scale(0.99); }
+  .copy-btn.copied{
+    background:var(--good);
+    border-color:var(--good);
+    color:#12251a;
+  }
+
+  /* ---------- data / reference tab ---------- */
+  .ref-note{
+    font-size:0.86rem;
+    color:var(--muted);
+    max-width:70ch;
+    line-height:1.55;
+    margin:0 0 26px;
+  }
+  .ref-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+    gap:18px;
+  }
+  .ref-card h3{
+    font-family:'Fondamento',serif;
+    font-size:0.82rem;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--violet);
+    margin:0 0 12px;
+    padding-bottom:10px;
+    border-bottom:1px solid var(--line-soft);
+  }
+  .ref-card table{
+    width:100%;
+    border-collapse:collapse;
+  }
+  .ref-card td{
+    padding:6px 0;
+    font-size:0.87rem;
+    border-bottom:1px solid rgba(255,255,255,0.03);
+  }
+  .ref-card tr:last-child td{ border-bottom:none; }
+  .ref-card td.cost{
+    text-align:right;
+    font-family:'JetBrains Mono',monospace;
+    color:var(--gold);
+    width:52px;
+    white-space:nowrap;
+  }
+  .ref-card.wide{ grid-column:1 / -1; }
+  .ref-card.wide .ref-list{
+    column-width:230px;
+    column-gap:24px;
+  }
+  .ref-card.wide .ref-row{
+    display:flex;
+    justify-content:space-between;
+    gap:14px;
+    padding:6px 0;
+    font-size:0.87rem;
+    border-bottom:1px solid rgba(255,255,255,0.03);
+    break-inside:avoid;
+    -webkit-column-break-inside:avoid;
+  }
+  .ref-card.wide .ref-row .cost{
+    font-family:'JetBrains Mono',monospace;
+    color:var(--gold);
+    white-space:nowrap;
+  }
+
+  footer.foot{
+    margin-top:50px;
+    padding-top:18px;
+    border-top:1px solid var(--line-soft);
+    font-size:0.78rem;
+    color:var(--muted-2);
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+
+  ::selection{ background:var(--text-highlight); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav class="tabs">
+    <button class="tab-btn active" data-view="builder">Cast a Spell</button>
+    <button class="tab-btn" data-view="reference">Component Costs</button>
+  </nav>
+
+  <!-- ================= BUILDER VIEW ================= -->
+  <section id="view-builder" class="view active">
+    <div class="builder">
+
+      <!-- LEFT: inputs -->
+      <div class="inputs">
+
+        <div class="card">
+          <h2>Range</h2>
+          <p class="hint">How far the spell reaches from the caster.</p>
+          <div class="field-row">
+            <select id="rangeSelect"></select>
+            <div class="qty-wrap"><input type="number" id="rangeQty" min="0" value="1"></div>
+            <div class="cost-pill" id="rangeCostDisplay">-</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Anchor</h2>
+          <p class="hint">How many, or the shape, the spell affects.</p>
+          <div class="field-row">
+            <select id="targetSelect"></select>
+            <div class="qty-wrap"><input type="number" id="targetQty" min="0" value="1"></div>
+            <div class="cost-pill" id="targetCostDisplay">-</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Duration</h2>
+          <p class="hint">How long the spell's effects last once cast.</p>
+          <div class="field-row duration-row">
+            <select id="durationSelect"></select>
+            <div class="qty-wrap"><input type="number" id="durationQty" min="0" value="1"></div>
+            <div class="cost-pill" id="durationCostDisplay">-</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Casting</h2>
+          <p class="hint">Spending more AP to Cast reduces the Mana cost: 1 AP is free, every AP after that reduces 1 mana.</p>
+          <div class="ap-row">
+            <div class="ap-input">
+              <label class="field-label" style="margin:0;">AP Cost</label>
+              <input type="number" id="apCost" min="1" max="10" value="3">
+            </div>
+            <div class="ap-note"><b id="apCostDisplay">0 </b></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Effects</h2>
+          <p class="hint">What the spell actually does. Up to five components.</p>
+          <div id="effectsList"></div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT: spell card -->
+      <div class="output">
+        <div class="spellcard">
+          <input class="name-input" id="spellName" type="text" placeholder="Name this spell…">
+
+          <div class="mana-total">
+            <div class="num" id="totalManaNum">0</div>
+            <div class="lbl">Mana Cost</div>
+          </div>
+
+          <div class="stat-grid">
+            <div class="stat"><div class="k">AP Cost</div><div class="v" id="statAP">1</div></div>
+            <div class="stat"><div class="k">Range</div><div class="v" id="statRange">Touch</div></div>
+            <div class="stat"><div class="k">Anchor</div><div class="v" id="statTarget">Target (#)</div></div>
+            <div class="stat"><div class="k">Duration</div><div class="v" id="statDuration">Instantaneous</div></div>
+          </div>
+
+          <div class="effects-list">
+            <div class="k">Effect(s)</div>
+            <ul id="statEffects"></ul>
+          </div>
+
+          <button id="copyItemizationBtn" class="copy-btn" onclick="copyItemization()">Copy Itemization</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= REFERENCE VIEW ================= -->
+  <section id="view-reference" class="view">
+    <p class="ref-note">
+      Mana cost of every component the spellbuilder draws from. Range and Anchor costs are per unit entered;
+      Duration's <em>Persist</em> cost is 1 mana per; Casting refunds 1 mana per AP spent beyond the first.
+    </p>
+    <div class="ref-grid" id="refGrid"></div>
+  </section>
+
+  <footer class="foot">
+    <span>v2.0</span>
+  </footer>
+
+</div>
+
+<script>
+/* ============ DATA ============ */
+const RANGE = [
+  {name:"Self", cost:0},
+  {name:"Touch", cost:1},
+  {name:"Paces (5)", cost:2},
+  {name:"Sight", cost:5},
+  {name:"Earshot", cost:5},
+];
+const TARGET = [
+  {name:"Target (#)", cost:1},
+  {name:"Line (#×3)", cost:2},
+  {name:"Cone (#)", cost:2},
+  {name:"Sphere (#)", cost:3},
+  {name:"Surround (#)", cost:3},
+  {name:"Aura (#)", cost:3},
+];
+const DURATION = [
+  {name:"Instantaneous", cost:0, instant:true},
+  {name:"Persist (#)", cost:1, instant:false},
+];
+const EFFECTS = [
+  {name:"Push (#)", cost:1, scalable:true},
+  {name:"Pull (#)", cost:1, scalable:true},
+  {name:"Blinded (10 − #)", cost:3, scalable:true},
+  {name:"Cramped", cost:2, scalable:false},
+  {name:"Suffocating", cost:7, scalable:false},
+  {name:"Burning", cost:3, scalable:false},
+  {name:"Terrain, Hardness (#)", cost:1, scalable:true},
+  {name:"Bleeding (#)", cost:2, scalable:true},
+  {name:"Freezing", cost:3, scalable:false},
+  {name:"Tethered (#)", cost:2, scalable:true},
+  {name:"Unsteady", cost:3, scalable:false},
+  {name:"Stuck", cost:2, scalable:false},
+  {name:"Dazed", cost:3, scalable:false},
+  {name:"Damage - #d4", cost:2, scalable:true},
+  {name:"Damage - #d6", cost:3, scalable:true},
+  {name:"Damage - #d8", cost:4, scalable:true},
+  {name:"Damage - #d10", cost:5, scalable:true},
+  {name:"Damage - #d12", cost:6, scalable:true},
+];
+const EFFECT_SLOTS = 5;
+let currentItemization = "";
+
+/* ============ helpers ============ */
+function el(tag, cls, html){
+  const e = document.createElement(tag);
+  if(cls) e.className = cls;
+  if(html !== undefined) e.innerHTML = html;
+  return e;
+}
+function fmtCost(n){
+  if(n === null || n === undefined || isNaN(n)) return "-";
+  if(n === 0) return "0";
+  return (n > 0 ? "+" : "") + n;
+}
+// Replace the "#" placeholder in a component's name with the actual quantity entered.
+function withValue(name, value){
+  return name.includes("#") ? name.replace("#", value) : name;
+}
+// Strip a trailing " (...)" suffix, e.g. "Target (#)" -> "Target", "Persist (#)" -> "Persist".
+function baseLabel(name){
+  return name.replace(/\s*\([^)]*\)\s*$/, "").trim();
+}
+
+/* ============ populate static selects ============ */
+function fillSelect(select, items, includeBlank){
+  select.innerHTML = "";
+  if(includeBlank){
+    const o = el("option","", "(none)");
+    o.value = "";
+    select.appendChild(o);
+  }
+  const conditions = items.filter(it=>!it.name.startsWith("Damage"));
+  const damage = items.filter(it=>it.name.startsWith("Damage"));
+  if(damage.length && conditions.length){
+    const condGroup = document.createElement("optgroup");
+    condGroup.label = "Conditions";
+    conditions.forEach(it=>{
+      const o = el("option","", it.name);
+      o.value = it.name;
+      condGroup.appendChild(o);
+    });
+    select.appendChild(condGroup);
+    const dmgGroup = document.createElement("optgroup");
+    dmgGroup.label = "Damage";
+    damage.forEach(it=>{
+      const o = el("option","", it.name);
+      o.value = it.name;
+      dmgGroup.appendChild(o);
+    });
+    select.appendChild(dmgGroup);
+  } else {
+    items.forEach(it=>{
+      const o = el("option","", it.name);
+      o.value = it.name;
+      select.appendChild(o);
+    });
+  }
+}
+
+const rangeSelect = document.getElementById("rangeSelect");
+const targetSelect = document.getElementById("targetSelect");
+const durationSelect = document.getElementById("durationSelect");
+fillSelect(rangeSelect, RANGE, false);
+fillSelect(targetSelect, TARGET, false);
+fillSelect(durationSelect, DURATION, false);
+rangeSelect.value = "Touch";
+targetSelect.value = "Target (#)";
+durationSelect.value = "Persist (#)";
+document.getElementById("rangeQty").value = 1;
+document.getElementById("targetQty").value = 4;
+document.getElementById("durationQty").value = 3;
+
+/* ============ effect rows ============ */
+const effectsList = document.getElementById("effectsList");
+const effectRows = [];
+const DEFAULT_EFFECTS = ["Dazed","Dazed","Dazed","",""];
+
+for(let i=0;i<EFFECT_SLOTS;i++){
+  const row = el("div","effect-row");
+  const select = el("select");
+  fillSelect(select, EFFECTS, true);
+  const qty = el("input");
+  qty.type = "number"; qty.min = "1"; qty.value = "1";
+  const costPill = el("div","cost-pill","-");
+  row.appendChild(select);
+  row.appendChild(qty);
+  row.appendChild(costPill);
+  effectsList.appendChild(row);
+  effectRows.push({select, qty, costPill});
+  select.value = DEFAULT_EFFECTS[i];
+  select.addEventListener("change", ()=>{ syncEffectRow(effectRows[i]); recalc(); });
+  qty.addEventListener("input", recalc);
+}
+
+function syncEffectRow(row){
+  const chosen = EFFECTS.find(e=>e.name === row.select.value);
+  if(!chosen){
+    row.qty.value = "1";
+    row.qty.disabled = true;
+  } else if(!chosen.scalable){
+    row.qty.value = "1";
+    row.qty.disabled = true;
+  } else {
+    row.qty.disabled = false;
+    if(!row.qty.value || row.qty.value === "0") row.qty.value = "1";
+  }
+}
+effectRows.forEach(syncEffectRow);
+
+/* ============ duration enable/disable qty ============ */
+const durationQty = document.getElementById("durationQty");
+function syncDuration(){
+  const chosen = DURATION.find(d=>d.name === durationSelect.value);
+  durationQty.disabled = !!(chosen && chosen.instant);
+}
+durationSelect.addEventListener("change", ()=>{ syncDuration(); recalc(); });
+syncDuration();
+
+/* ============ core calc ============ */
+const rangeQtyEl = document.getElementById("rangeQty");
+const targetQtyEl = document.getElementById("targetQty");
+const apCostEl = document.getElementById("apCost");
+const spellNameEl = document.getElementById("spellName");
+
+[rangeSelect, targetSelect].forEach(s=>s.addEventListener("change", recalc));
+[rangeQtyEl, targetQtyEl, apCostEl, durationQty].forEach(i=>i.addEventListener("input", recalc));
+spellNameEl.addEventListener("input", recalc);
+
+function num(v, fallback){
+  const n = parseFloat(v);
+  return isNaN(n) ? fallback : n;
+}
+
+function recalc(){
+  // Range
+  const rangeItem = RANGE.find(r=>r.name===rangeSelect.value);
+  const rangeQty = num(rangeQtyEl.value, 0);
+  let rangeCost = rangeItem.cost * rangeQty;
+  document.getElementById("rangeCostDisplay").textContent = fmtCost(rangeCost);
+  document.getElementById("rangeCostDisplay").className = "cost-pill" + (rangeCost>0?" pos":"");
+
+  // Target
+  const targetItem = TARGET.find(t=>t.name===targetSelect.value);
+  const targetQty = num(targetQtyEl.value, 0);
+  let targetCost = targetItem.cost * targetQty;
+  if(targetCost < 0) targetCost = 0;
+  document.getElementById("targetCostDisplay").textContent = fmtCost(targetCost);
+  document.getElementById("targetCostDisplay").className = "cost-pill" + (targetCost>0?" pos":"");
+
+  // Duration
+  const durItem = DURATION.find(d=>d.name===durationSelect.value);
+  const durQty = num(durationQty.value, 0);
+  let durationCost = durItem.instant ? 0 : durQty;
+  document.getElementById("durationCostDisplay").textContent = fmtCost(durationCost);
+  document.getElementById("durationCostDisplay").className = "cost-pill" + (durationCost>0?" pos":"");
+
+  // AP
+  const ap = Math.min(10, Math.max(1, Math.round(num(apCostEl.value,1))));
+  apCostEl.value = ap;
+  const apAdjust = (ap * -1) + 1;
+  document.getElementById("apCostDisplay").textContent = fmtCost(apAdjust);
+
+  // Effects
+  let effectsTotal = 0;
+  const activeEffects = [];
+  effectRows.forEach(row=>{
+    const chosen = EFFECTS.find(e=>e.name===row.select.value);
+    if(!chosen){
+      row.costPill.textContent = "-";
+      row.costPill.className = "cost-pill";
+      return;
+    }
+    const qty = chosen.scalable ? num(row.qty.value,1) : 1;
+    const cost = chosen.cost * qty;
+    effectsTotal += cost;
+    row.costPill.textContent = fmtCost(cost);
+    row.costPill.className = "cost-pill" + (cost>0?" pos":"");
+    activeEffects.push({label: chosen.scalable ? withValue(chosen.name, qty) : chosen.name, cost});
+  });
+
+  const total = rangeCost + targetCost + durationCost + apAdjust + effectsTotal;
+
+  /* ---- update spell card ---- */
+  const totalEl = document.getElementById("totalManaNum");
+  totalEl.textContent = total;
+  totalEl.className = "num" + (total < 0 ? " negative" : "");
+
+  document.getElementById("statAP").textContent = ap;
+  let rangeDisplay;
+  if(rangeItem.name === "Touch"){
+    rangeDisplay = "Touch";
+  } else if(rangeItem.name === "Paces (5)"){
+    rangeDisplay = `${5*rangeQty} Paces`;
+  } else {
+    rangeDisplay = withValue(rangeItem.name, rangeQty);
+  }
+  document.getElementById("statRange").textContent = rangeDisplay;
+  document.getElementById("statTarget").textContent = withValue(targetItem.name, targetQty);
+  document.getElementById("statDuration").textContent = durItem.instant ? "Instantaneous" : withValue(durItem.name, durQty);
+
+  const ul = document.getElementById("statEffects");
+  ul.innerHTML = "";
+  if(activeEffects.length === 0){
+    ul.appendChild(el("li","empty","No effects selected"));
+  } else {
+    activeEffects.forEach(fx=>{
+      const li = el("li");
+      li.appendChild(el("span","", fx.label));
+      li.appendChild(el("span","e-cost", fmtCost(fx.cost)));
+      ul.appendChild(li);
+    });
+  }
+
+  // assemble the ItemsAdder command itemization for the "Copy Itemization" button
+  const nameText = spellNameEl.value.trim() || "Unnamed Spell";
+  const anchorBase = baseLabel(targetItem.name);
+  const durationBase = baseLabel(durItem.name);
+
+  let rangeLine;
+  if(rangeItem.name === "Touch"){
+    rangeLine = `/ie lore add &fRange: Touch `;
+  } else if(rangeItem.name === "Paces (5)"){
+    rangeLine = `/ie lore add &fRange: Paces &8(&f${5*rangeQty}&8) `;
+  } else {
+    rangeLine = `/ie lore add &fRange: ${rangeItem.name} `;
+  }
+
+  const durationLine = durItem.instant
+    ? `/ie lore add &fDuration: Instantaneous `
+    : `/ie lore add &fDuration: ${durationBase} &8(&f${durQty}&8) `;
+
+  const itemizationLines = [
+    `/ie rename &f${nameText}, &fMana &8(&f${total}&8) `,
+    `/ie lore add &fAP Cost &8(&f${ap}&8) `,
+    rangeLine,
+    `/ie lore add &fAnchor: ${anchorBase} &8(&f${targetQty}&8) `,
+    durationLine,
+  ];
+  if(activeEffects.length > 0){
+    itemizationLines.push(`/ie lore add &fEffect(s): `);
+    activeEffects.forEach(fx=>{
+      itemizationLines.push(`/ie lore add &8... &f${fx.label} `);
+    });
+  }
+  itemizationLines.push(`/ie lore add &0v2.0`);
+  currentItemization = itemizationLines.join("\n");
+}
+
+recalc();
+
+/* ============ reference tab ============ */
+const refGrid = document.getElementById("refGrid");
+
+function buildRefCard(title, items, wide){
+  const card = el("div","ref-card" + (wide ? " wide" : ""));
+  card.appendChild(el("h3","",title));
+  if(wide){
+    const list = el("div","ref-list");
+    items.forEach(it=>{
+      const row = el("div","ref-row");
+      row.appendChild(el("span","",it.name));
+      row.appendChild(el("span","cost", fmtCost(it.cost)));
+      list.appendChild(row);
+    });
+    card.appendChild(list);
+  } else {
+    const table = el("table");
+    const tbody = el("tbody");
+    items.forEach(it=>{
+      const tr = el("tr");
+      tr.appendChild(el("td","",it.name));
+      tr.appendChild(el("td","cost", fmtCost(it.cost)));
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    card.appendChild(table);
+  }
+  refGrid.appendChild(card);
+}
+
+buildRefCard("Range", RANGE);
+buildRefCard("Anchor", TARGET);
+buildRefCard("Duration", [{name:"Instantaneous", cost:0}, {name:"Persist (#), per unit", cost:1}]);
+buildRefCard("Casting", [{name:"Per 1 AP spent beyond the first", cost:-1}]);
+buildRefCard("Effects", EFFECTS, true);
+
+/* ============ copy itemization ============ */
+function copyItemization(){
+  const button = document.getElementById("copyItemizationBtn");
+  navigator.clipboard.writeText(currentItemization).then(()=>{
+    const originalText = button.textContent;
+    button.textContent = "Copied Itemization!";
+    button.classList.add("copied");
+    setTimeout(()=>{
+      button.textContent = originalText;
+      button.classList.remove("copied");
+    }, 2000);
+  });
+}
+
+/* ============ tabs ============ */
+document.querySelectorAll(".tab-btn").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    document.querySelectorAll(".tab-btn").forEach(b=>b.classList.remove("active"));
+    document.querySelectorAll(".view").forEach(v=>v.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById("view-" + btn.dataset.view).classList.add("active");
+  });
+});
+
+/* ============ self-resize when embedded in a same-origin iframe ============ */
+if(window.frameElement){
+  const fitFrame = () => {
+    window.frameElement.style.height = document.documentElement.scrollHeight + "px";
+  };
+  fitFrame();
+  window.addEventListener("load", fitFrame);
+  if(document.fonts && document.fonts.ready){
+    document.fonts.ready.then(fitFrame);
+  }
+  new ResizeObserver(fitFrame).observe(document.body);
+}
+
+/* ============ live theme sync with the site's light/dark toggle ============ */
+function applyTheme(theme){
+  if(theme === "light" || theme === "dark"){
+    document.documentElement.setAttribute("data-theme", theme);
+  }
+}
+// Fires in this frame whenever localStorage changes in another same-origin frame/tab.
+window.addEventListener("storage", (e)=>{
+  if(e.key === "theme") applyTheme(e.newValue);
+});
+// Quartz's toggle also emits a "themechange" event on the parent document.
+try {
+  if(window.parent && window.parent !== window){
+    window.parent.document.addEventListener("themechange", (e)=>{
+      const theme = (e && e.detail && e.detail.theme)
+        || window.parent.document.documentElement.getAttribute("saved-theme");
+      applyTheme(theme);
+    });
+  }
+} catch(e){ /* cross-origin or blocked; initial detection in <head> still applies */ }
+</script>
+</body>
+</html>
