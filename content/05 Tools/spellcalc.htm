@@ -534,7 +534,7 @@
           <div class="ap-row">
             <div class="ap-input">
               <label class="field-label" style="margin:0;">AP Cost</label>
-              <input type="number" id="apCost" min="1" max="10" value="3">
+              <input type="number" id="apCost" min="1" max="10" value="1">
             </div>
             <div class="ap-note"><b id="apCostDisplay">0 </b></div>
           </div>
@@ -703,13 +703,13 @@ rangeSelect.value = "Touch";
 targetSelect.value = "Target (#)";
 durationSelect.value = "Persist (#)";
 document.getElementById("rangeQty").value = 1;
-document.getElementById("targetQty").value = 4;
-document.getElementById("durationQty").value = 3;
+document.getElementById("targetQty").value = 1;
+document.getElementById("durationQty").value = 1;
 
 /* ============ effect rows ============ */
 const effectsList = document.getElementById("effectsList");
 const effectRows = [];
-const DEFAULT_EFFECTS = ["Dazed","Dazed","Dazed","",""];
+const DEFAULT_EFFECTS = ["","","","",""];
 
 for(let i=0;i<EFFECT_SLOTS;i++){
   const row = el("div","effect-row");
