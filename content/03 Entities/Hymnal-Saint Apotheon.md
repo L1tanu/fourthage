@@ -31,11 +31,11 @@ Despite seeming like an obvious contradiction to their stated goal, a large numb
 # **Invocations**
 **Ex Hypothesi** 
 Complexity: 1 
-Favor: 1 
+Favor: 10 
 Range: Touch 
 Duration: Persist (1) 
 AP: 1 
-Effect: You open a target’s mind to grander insights, allowing them to use your Willpower score in place of their own if they would roll for a Skill which you possess. 
+Effect: You open a target’s mind to grander insights, allowing them to double their Skill Bonus when rolling for a Lore Skill.
 
 **Immunitas** 
 Complexity: 2 

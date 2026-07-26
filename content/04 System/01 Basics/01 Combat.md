@@ -62,11 +62,13 @@ If you are forced to move, but terrain or another character would block you, the
 - For characters, both take half of 1d6 damage for every pace you would have moved.
 # Interaction
 All things listed here consume at least 1 AP to perform, if it is unlisted the GM will specify or it is assumed to be able to be done freely within reason. ^be2dd8
-- Picking up an item from the ground. Each [[05 Equipment#^9b784f|Bulk]] (#) of an item costs that amount (#) of AP to pick up.
+- Picking up an item from the ground. 
+	- Each [[05 Equipment#^9b784f|Bulk]] (#) of an item costs that amount (#) of AP to pick up.
 - Unlocking a door that you have the key to.
 - Swapping a drawn weapon with another one.
 - Saddling a horse you are standing next to.
 - Speaking an additional 25 words.
+- Reducing a single Condition's Persist by 1 for a target within Touch.
 # Casting
 You can Cast spells you have created when using the rest action [[01b Resting#^9e286e|Delve the Arcane]], the [[01 Combat#^72491d|AP]] cost is listed on each spell. All spells require line of sight from the caster to their target. ^bfe9ae
 # Wait

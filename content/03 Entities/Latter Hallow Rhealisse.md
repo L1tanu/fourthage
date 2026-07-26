@@ -65,9 +65,9 @@ AP: 5
 Effect: You create a steed from streams of silvery bubbles. On your next turn, you gain an additional 5 AP which exceeds your maximum and can only be spent on movement. At the end of the duration, your steed erupts into waves and all creatures within Sphere (5) suffer the Slowed and Dazed conditions.
 
 **Wedding in Waves** 
-Complexity: 5 
-Favor: 20 
-Range: Touch 
-Duration: Persist (1) 
-AP: 3 
-Effect: Target must succeed a Willpower vs. Strength contest; on a failure, you both suffer the Suffocating (1) and Tethered (0) conditions. At the end of the round you may choose to extend the duration by Persist (1) for no additional cost.
+Complexity: 5
+Favor: 20
+Range: Touch
+Duration: Persist (1)
+AP: 3
+Effect: Target must succeed a Willpower vs. Strength contest; on a failure, you both suffer the Suffocating and Tethered (0) Conditions. At the end of the round you may choose to extend the duration by Persist (1) for no additional cost.

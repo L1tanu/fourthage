@@ -34,11 +34,11 @@ The Wælmist is depicted as a pair of clasped hands reaching out from behind a v
 # Invocations
 **Brainfog** 
 Complexity: 1 
-Favor: 1 
+Favor: 3 
 Range: Touch 
 Duration: Persist (5) 
 AP: 2 
-Effect: The theurgist creates a ward around a creature. The ward causes the first attack against it in each round to have Disadvantage (2) so long as the targeted creature does not attempt to deal damage. If the targeted creature attempts to deal damage, the spell immediately ends. 
+Effect: The theurgist creates a ward around a creature. The ward causes the first attack against it in each round to have Disadvantage (2) so long as the targeted creature does not attempt to deal damage. If the targeted creature attempts to deal damage, the spell immediately ends.
 
 **Lost in Thought** 
 Complexity: 2 

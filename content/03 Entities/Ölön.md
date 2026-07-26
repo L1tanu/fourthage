@@ -29,13 +29,13 @@ In the Vemarian steppe and the countryside of the Gray Marches beyond, Ölön is
 - The runt of the litter, still living (15 Favor)
 
 # **Invocations**
-**Food Preparation** 
+**Nibble** 
 Complexity: 1 
 Favor: 1 
-Range: Touch 
-Duration: Until next rest 
-AP: 1 
-Effect: You preserve Bulk (1) of rations. If used for the _Cooking a meal_ rest action, they count as Bulk (2) of rations. 
+Range: Self 
+Duration: Instant 
+AP: 2 
+Effect: You consume 2 Rations, restoring 1 Fatigue.
 
 **Bloodhound** 
 Complexity: 2 
@@ -56,9 +56,9 @@ Effect: Tether (0) yourself to the target for a Duration up to the Favor you spe
 Complexity: 3 
 Favor: 5 
 Range: Touch 
-Duration: Instant 
+Duration: Persist (1) 
 AP: 1 
-Effect: The target suffers Bleeding (2). 
+Effect: The target suffers Bleeding (5). 
 
 **To Love Is To Be Eaten**
 Complexity: 4 
