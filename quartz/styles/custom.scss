@@ -47,3 +47,8 @@ button.title-button.desktop-explorer {
     margin-top: 0.4em; // small gap between multiple paragraphs, if you want one
   }
 }
+
+.canvas-node-content {
+  user-select: text !important;
+  cursor: text;
+}
