@@ -42,13 +42,139 @@ button.title-button.desktop-explorer {
   p {
     margin: 0; // kill default paragraph spacing
   }
-
-  p + p {
-    margin-top: 0.4em; // small gap between multiple paragraphs, if you want one
-  }
 }
 
 .canvas-node-content {
   user-select: text !important;
   cursor: text;
+}
+
+// --- linen background ---
+
+body {
+  background-color: var(--linen-base);
+  background-image: url("/static/linen-tile.png");
+  background-repeat: repeat;
+  background-size: 225px 225px;
+}
+
+.page-title {
+  .page-title-logo {
+    height: 10rem;
+    width: auto;
+    vertical-align: middle;
+	padding-left: 25px;
+  }
+  a {
+    display: flex;
+    align-items: center;
+  }
+}
+
+h1, h2, h3, h4, h5, h6,
+.page-title {
+  text-shadow:
+    1px 1px 0px rgba(255, 255, 255, 0.08),   // highlight now below-right (light catching the far inner edge)
+    -1px -1px 1.5px rgba(0, 0, 0, 0.55);      // shadow now above-left (the near inner edge falling into shadow)
+}
+
+.toc-content a {
+  text-shadow:
+    1px 1px 0px rgba(255, 255, 255, 0.08),   // highlight now below-right (light catching the far inner edge)
+    -1px -1px 1.5px rgba(0, 0, 0, 0.55);      // shadow now above-left (the near inner edge falling into shadow)
+}
+
+article p, article li {
+  text-shadow:
+    0.4px 0.4px 0px rgba(255, 255, 255, 0.06),
+    -0.4px -0.4px 0.6px rgba(0, 0, 0, 0.4);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.3em; // default is often 1em or more — try 0.3–0.5em
+}
+
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+  margin-top: 0; // kill the paragraph's own top margin right after a header
+}
+
+#quartz-body .center {
+  min-width: 80% !important;        /* adjust this to your desired width */
+  max-width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right.sidebar {
+  padding-left: 50px;
+}
+
+.left.sidebar {
+  padding-left: 100px;
+}
+
+.left.sidebar::before {
+  content: "";
+  position: absolute;
+  left: -100px; // pushes it outside the sidebar, to its left. Adjust to taste.
+  top: 210px;
+  bottom: -210px;
+  width: 50%; // width of the image strip itself now, independent of sidebar width
+  background-image: url("/static/explorer-spine.svg");
+  background-size: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+
+body {
+  padding: 0 !important;
+}
+
+.left.sidebar {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  // If it's sticky and has a top offset
+  top: 0 !important;
+}
+
+.left.sidebar .site-title {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.left.sidebar nav {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+// Hide the scrollbar in the left sidebar but keep scrolling functionality
+.left.sidebar * {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+  &::-webkit-scrollbar {
+    display: none !important;
+  }
+}
+
+[data-frame] canvas,
+[data-frame] .excalidraw,
+[data-frame] .canvas-wrapper,
+[data-frame] .canvas-container,
+[data-frame] .react-grid-item,
+[data-frame] .react-grid-layout {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+[data-frame] .canvas-node-content ul,
+[data-frame] .canvas-node-content ol {
+  margin-top: 0.01em !important;
+  margin-bottom: 0.01em !important;
+  padding-left: 1.2em !important;
+}
+
+[data-frame] .canvas-node-content li {
+  margin-top: 0.01em !important;
+  margin-bottom: 0.01em !important;
+  line-height: 1 !important;
 }

@@ -3,7 +3,7 @@ publish: true
 ---
 <div class="centered">
 
-_"From beyond the firmament there are things from which all amidst humanity can say, 'no eye has seen, no hand has touched, no ear has heard, nor mind has thought!' These shall be delivered unto you from those whose eyes have witnessed, whose hands have wrought, whose ears have tuned, whose minds have dreamt of them."_ 
+_"From beyond the firmament there are things from which all amidst humanity can say, 'no eye has seen, no hand has touched, no ear has heard, nor mind has thought!' These shall be delivered unto you from those whose eyes have witnessed, whose hands have wrought, whose ears have tuned, whose minds have dreamt of."_ 
 *— A passage from a High Marathan papyrus titled 'The Virtues of Heresy'.*
 
 </div>

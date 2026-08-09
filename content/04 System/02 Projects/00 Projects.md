@@ -7,7 +7,7 @@ At the beginning of the OOC week, a player may pick one of the following Project
 - *Recovery* is the healing of a [[03 Encumbrance#^509b12|Major Wound]] into a [[03 Encumbrance#^066694|Scar]], or the removal of a Disease. To begin healing a [[03 Encumbrance#^509b12|Major Wound]], you need Medicine. The [[00 Characters#^35acfd|Challenge Clock]] is based on the overkill amount that inflicted the [[03 Encumbrance#^7b80a0|Wound]], each tier is equivalent to another segment and the DC equal to the overkill amount itself. ^88e11f
 - *Journey* is reserved for longer travels. Please see the [[01a Journeys|Journey]] segment of the rules.
 - *Thievery* is the act of stealing from another character or burglary. This requires direct GM oversight.
-- *Pitched battles* are special mass-scale combats which take place between two opposing armies, rather than a small handful of characters. 
+- *Pitched battles* are special mass-scale combats which take place between two opposing armies, rather than a small handful of characters.
 - Misc. is reserved for particular projects that a GM wishes to have a player pursue. Examples of this could include researching a hefty tome, experimenting to reverse engineer a decoction, or gathering rumors.
 
 At the end of the OOC week (typically Sunday), a player can attempt a roll, using the [[00 Characters#^50f785|Skill Score]] listed, against the [[00 Characters#^35acfd|Challenge Clock]]. If the character would be able to skip all segments, they still must wait for when the first roll would have occurred.

@@ -1,7 +1,11 @@
 ---
 publish: true
 ---
+
+
 <div class="centered">
+
+![[lion.svg|300]]
 
 ***(TOUVASSAUX - “ALL THE VASSALS”)*** 
 
@@ -39,7 +43,9 @@ However, the Pallasians did not leave the Tousalean favor unpunished. After gene
 
 Today, the people of Orralune are considered stubborn and backwards due to their reverence of the old ways and the principles of their erstwhile democracy; a reputation propagated by the Church of the Unsullied Soul, which has made the cathedrals of a reborn Silvermere into their center for religious study. Aspiring clergymen and scholars from across Tousav journey to Orralune to receive their education, though some are swayed from the path by the sage societies, who struggle in secret to preserve their lost culture against the will of the Empire.
 
-**Suggested Trades:** Crusader, Healer, Hunter, Miner, Monk, Savant, Scout, Soldier, Priest, Witch. **Male Names:** Caelum, Emrys, Ishtaran, Osharic, Branoc, Taliesin, Vesar, Sahl, Zain, Ilyaas. **Female Names:** Aerona, Brisen, Eirwen, Shahla, Morwenna, Nimue, Serafina, Talara, Najlaa, Manaara.
+**Suggested Trades:** Crusader, Healer, Hunter, Miner, Monk, Savant, Scout, Soldier, Priest, Witch. 
+**Male Names:** Caelum, Emrys, Ishtaran, Osharic, Branoc, Taliesin, Vesar, Sahl, Zain, Ilyaas. 
+**Female Names:** Aerona, Brisen, Eirwen, Shahla, Morwenna, Nimue, Serafina, Talara, Najlaa, Manaara.
 #### MONTCLAIVE (Unmaar, Ibrul, Kalghatsonia, Guald’ridris, Yethselune, Eichencourt)
 The tragedy of Montclaive’s destruction is one keenly felt by all its inhabitants. Once, the lush forests of the region blanketed sprawling hills in verdant green, broken only by the grottos that the Guald’ridrians tended, or the lakeside ruins of the Second Age that the Unmaari had restored. Eichencourt and Yethselune, captured Lagainian territories, are newcomers to the sprawl--themselves former hubs of trade at the precipice of empires. Yet lifetimes of war waged by the Pallasians, passed down as birthright between their dynasts, has ravaged the land and excised it from history. The bleak deserts of Montclaive are now home only to soldiers, mercenaries, and the devoted few whose love for their home outweighs their hatred for its murderers.
 
@@ -124,8 +130,7 @@ Compared to its contemporary philosophies, Virtudom is noteworthy for lacking a 
 
 In the dominant imperial sects, a man’s soul is split into two aspects:
 - A man’s instinctual soul. This is his private self; the inner-soul is defiant and responds principally to pain; it is a force which pushes him towards selfishness and physical gratification.
-    
-- A man’s communal soul. This exists outside him; it isn’t something he’s born with, but develops in childhood and changes over the course of his life. It represents his nurtured self, rather than his primal nature.
+- A man’s communal soul. This exists outside him; it isn’t something he’s born with, but develops in childhood and changes as he matures. It represents his nurtured self, rather than his primal nature.
 
 Every human is torn between his instinctual and communal soul. He begins as something bestial, crooked, and self-interested; over the course of his life, beginning with his father’s discipline and moving on to the scrutiny of his lord and his peers, he tames his wicked inner desires and becomes selfless, moral, and upstanding. The perfect Tousavi is not understood, but observed--a marblesque man who does not express doubt, or hate, or hunger.
 
@@ -153,7 +158,7 @@ In some provinces this is solved within the family unit. Lastvadojia and Kalghat
 However, for the educated and elite, the solution they devised is “the Measure.”
 
 ### How the Measure Works
-The Measure is how one’s communal soul is tested and tempered. It is an ever-shifting system of etiquette encompassing rituals, courtesies, and honors which the imperial Tousavi practice in every interaction and enforce with religious fervor. It is an endless interrogation of one’s Virtues--an invisible panopticon attesting hierarchy and challenging one’s own self-control. 
+The Measure is how one’s communal soul is tested and tempered. It is an ever-shifting system of etiquette encompassing rituals, courtesies, and honors which the imperial Tousavi practice in every interaction and enforce with religious fervor. It is an endless interrogation of one’s Virtues--an invisible panopticon attesting hierarchy and challenging one’s self-control. 
 
 To participate in the Measure, you must follow these basic guidelines: always show deference to authority, never be seen as losing control, and always behave respectfully. The Measure can be as simple as maintaining grace, such as through bodily posture, or can be as complex as speaking discretely and layering a conversation with the subtlest threats and praise. Should a man be measured by his fellows and found wanting, it is the sacred duty of the virtuous to destroy his reputation through means of guile or mettle.
 

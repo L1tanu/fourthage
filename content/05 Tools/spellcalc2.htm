@@ -7,16 +7,21 @@
 <script>
 (function(){
   function detectTheme(){
+    // 1. Quartz's own darkmode toggle stores this in localStorage, shared
+    //    across same-origin frames, so we can read it directly.
     try {
       var stored = localStorage.getItem("theme");
       if(stored === "light" || stored === "dark") return stored;
     } catch(e){}
+    // 2. Fall back to the attribute Quartz sets on <html>, read from the
+    //    parent page if we're embedded same-origin.
     try {
       if(window.parent && window.parent !== window){
         var parentTheme = window.parent.document.documentElement.getAttribute("saved-theme");
         if(parentTheme === "light" || parentTheme === "dark") return parentTheme;
       }
     } catch(e){}
+    // 3. Last resort: the browser/OS preference.
     return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
   }
   document.documentElement.setAttribute("data-theme", detectTheme());
@@ -45,22 +50,22 @@
   }
 
   :root[data-theme="light"]{
-    --ink: #1d2a63;                 /* main background – deep navy */
-    --ink-2: #4F5886;               /* input / panel backgrounds */
-    --panel: #1d2a63;               /* card background */
-    --panel-2: #4F5886;             /* card gradient end */
-    --line: #465797;                /* borders */
-    --line-soft: rgba(70,87,151,0.5);
-    --gold: #dbbf79;                /* headings, links, accents (secondary) */
-    --gold-soft: #e2ab49;           /* softer gold (tertiary) */
-    --violet: #dbbf79;              /* reuse gold for consistency */
-    --violet-soft: rgba(219,191,121,0.25);
-    --parchment: #f8e990;           /* main text (darkgray) */
-    --muted: #b8a060;               /* muted text */
-    --muted-2: rgba(184,160,96,0.7);
-    --highlight: rgba(212,175,55,0.14);
-    --text-highlight: #d4af3744;
-    --good: #84a59d;                /* keep as is or adjust */
+    --ink:#f3ead3;
+    --ink-2:#e5e5e5;
+    --panel:#e5e5e5;
+    --panel-2:#f3ead3;
+    --line:#b8b8b8;
+    --line-soft:rgba(184,184,184,0.5);
+    --gold:#284b63;
+    --gold-soft:#84a59d;
+    --violet:#84a59d;
+    --violet-soft:rgba(132,165,157,0.25);
+    --parchment:#2b2b2b;
+    --muted:#4e4e4e;
+    --muted-2:rgba(78,78,78,0.7);
+    --highlight:rgba(143,159,169,0.15);
+    --text-highlight:#fff23688;
+    --good:#84a59d;
   }
 
   *{box-sizing:border-box;}
@@ -68,7 +73,8 @@
   html,body{
     margin:0;
     min-height:100vh;
-    background: var(--ink);
+    background:
+      var(--ink);
     color:var(--parchment);
     font-family:'Fraunces',serif;
     font-feature-settings:"tnum" 1;
@@ -183,7 +189,7 @@
 
   .field-row{
     display:grid;
-    grid-template-columns:minmax(0,1fr) 92px 96px;
+    grid-template-columns: minmax(0,1fr) 92px 96px;
     gap:10px;
     align-items:center;
     margin-bottom:12px;
@@ -235,7 +241,7 @@
 
   .effect-row{
     display:grid;
-    grid-template-columns:minmax(0,1fr) 78px 96px;
+    grid-template-columns: minmax(0,1fr) 78px 96px;
     gap:10px;
     align-items:center;
     margin-bottom:10px;
@@ -642,9 +648,11 @@ function fmtCost(n){
   if(n === 0) return "0";
   return (n > 0 ? "+" : "") + n;
 }
+// Replace the "#" placeholder in a component's name with the actual quantity entered.
 function withValue(name, value){
   return name.includes("#") ? name.replace("#", value) : name;
 }
+// Strip a trailing " (...)" suffix, e.g. "Target (#)" -> "Target", "Persist (#)" -> "Persist".
 function baseLabel(name){
   return name.replace(/\s*\([^)]*\)\s*$/, "").trim();
 }
@@ -955,9 +963,11 @@ function applyTheme(theme){
     document.documentElement.setAttribute("data-theme", theme);
   }
 }
+// Fires in this frame whenever localStorage changes in another same-origin frame/tab.
 window.addEventListener("storage", (e)=>{
   if(e.key === "theme") applyTheme(e.newValue);
 });
+// Quartz's toggle also emits a "themechange" event on the parent document.
 try {
   if(window.parent && window.parent !== window){
     window.parent.document.addEventListener("themechange", (e)=>{
@@ -966,7 +976,7 @@ try {
       applyTheme(theme);
     });
   }
-} catch(e){ /* cross-origin or blocked */ }
+} catch(e){ /* cross-origin or blocked; initial detection in <head> still applies */ }
 </script>
 </body>
 </html>

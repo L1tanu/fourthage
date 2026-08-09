@@ -6,7 +6,7 @@ While some nations maintain their own calendar, nearly all still use the standar
 Once a year passes, the next cluster of constellations is used. The end of each year is marked by five days of celebrations, with each focused on one of the five primes of the Mazzaroth. Each season is split into weeks, five days long (Konsday, Sensday, Amsday, Nensday, Lenday) which results in 24 weeks within each season.
 
 We use a 1:3 (OOC:IC) timescale here. When writing out the date, you can use the following format: _Day of the Week (out of 5), Week (out of 24), Season (out of 4), Year/Age_ For example 5/13/3 4A93 would be written out as: _Cenday in the 13th week of the Harvest season, 4th Age year 93_ When picking out your character's soul or constellation, check here for an easy reference about the year and season: [Soul Calculator Link](https://docs.google.com/spreadsheets/d/11VrnBIgupIFv61qic6FAHqVTHPhKOU6SSD0re4gLofE/edit?usp=sharing "https://docs.google.com/spreadsheets/d/11VrnBIgupIFv61qic6FAHqVTHPhKOU6SSD0re4gLofE/edit?usp=sharing").
-# The Mazzaroth
+# THE MAZZAROTH
 As the Marathan Empire expanded, so too did its superstitions surrounding the soul. They believed the Mazzaroth--a circle of constellations in the sky--was the origin of the human soul, and that by understanding it you could effectively predict the course of one's life. It is now a common belief throughout Yiegdra that a person possesses a _soul type_ inherited from the Mazzaroth, determined by their birthday. Though not necessary, you are encouraged to select a _soul type_ for your character.
 ### **Zvan, the Eastern Wolf Star**
 **The Martyred Soul:** Doggedly loyal, living a frenetic life of action and reaction in service to your chosen cause. Superstition goes that you will sacrifice everything for what you love.
@@ -38,7 +38,7 @@ As the Marathan Empire expanded, so too did its superstitions surrounding the so
 **The Bisected Soul:** Whimsical, you yearn to sample the many flavors of life; love comes easy to you. Superstition goes that you will always try, but never truly fill the hole in your heart.
 ### **Myshka, the Transient Mouse Star**
 **The Disquieted Soul:** Phlegmatic, but possessed by sudden fits of manic creativity and flashes of brilliance. Superstition goes that you will compose great symphonies in your head which will never be written.
-# The Turn of Ages
+# THE TURN OF AGES
 An "Age" marks a major period of history which spans from the occurrence of one world-changing event to next. This typically means the fall of a dynasty, the founding of an empire, or the death of a monarch. There have been 4 Ages, each one lasting a different length of time measured in centuries. The Ages are:
 ### **1st Age -- Length: Pre-history**
 A time before time. No records exist of the 1st Age; its history is glimpsed only as fragments of Second Age myth.

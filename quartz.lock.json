@@ -194,10 +194,10 @@
       "installedAt": "2026-07-31T00:59:58.012Z"
     },
     "page-title": {
-      "source": "github:quartz-community/page-title",
-      "resolved": "https://github.com/quartz-community/page-title.git",
-      "commit": "a2e035fd9a99fc07197c6627bb21d08c57038fc6",
-      "installedAt": "2026-07-31T00:59:58.370Z"
+      "source": "github:L1tanu/page-title",
+      "resolved": "https://github.com/L1tanu/page-title.git",
+      "commit": "4a37bc170a2b71f725760187d9c56ce80dcdb062",
+      "installedAt": "2026-08-09T13:46:00.306Z"
     },
     "quartz-leaflet-bases-plugin": {
       "source": "github:requiae/quartz-leaflet-bases-plugin",

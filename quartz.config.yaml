@@ -2,7 +2,7 @@
 configuration:
   pageTitle: The 4th Age
   pageTitleSuffix: ""
-  enableSPA: false
+  enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
@@ -21,23 +21,23 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#f3ead3"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#1d2a63"           # Main page background – deep navy blue
+        lightgray: "#4F5886"       # Slightly lighter – sidebar/container backgrounds
+        gray: "#465797"           # borders, secondary text, muted elements
+        darkgray: "#f8e990"       # GOLD – main body text
+        dark: "#dbbf79"           # BRIGHTER GOLD – headings, important text
+        secondary: "#dbbf79"      # GOLD – links, interactive elements
+        tertiary: "#e2ab49"       # DARKER GOLD – visited links, less prominent accents
+        highlight: rgba(212, 175, 55, 0.14)   # Gold-tinted selection/hover
+        textHighlight: "#d4af3744"            # Gold text highlight (44 = 25% opacity)
       darkMode:
-        light: "#1b1612"
-        lightgray: "#2a221c"
-        gray: "#4a3a2f"
-        darkgray: "#d8c7a6"
-        dark: "#f0e3c8"
-        secondary: "#a88a5c"
-        tertiary: "#7a5c3a"
+        light: "#758A90"
+        lightgray: "#758A90"
+        gray: "#D9C39E"
+        darkgray: "#D9C39E"
+        dark: "#D9C39E"
+        secondary: "#DBCDAA"
+        tertiary: "#DBCDAA"
         highlight: rgba(210, 180, 120, 0.14)
         textHighlight: "#d6b25a44"
 plugins:
@@ -195,25 +195,20 @@ plugins:
     layout:
       position: beforeBody
       priority: 30
-  - source: github:quartz-community/page-title
-    enabled: true
-    layout:
-      position: left
-      priority: 10
   - source: github:quartz-community/darkmode
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 5
@@ -283,34 +278,17 @@ plugins:
     enabled: true
     options:
       enableInteraction: true
-      initialZoom: 1
-      minZoom: 0.1
-      maxZoom: 5
+      initialZoom: 5
+      minZoom: 1
+      maxZoom: 10
     order: 50
-  - source: github:L1tanu/canvas-page
+  - source: github:L1tanu/page-title
     enabled: true
-    options:
-      enableInteraction: true
-      initialZoom: 1
-      minZoom: 0.1
-      maxZoom: 5
+    options: {}
     order: 50
-  - source: github:L1tanu/canvas-page
-    enabled: true
-    options:
-      enableInteraction: true
-      initialZoom: 1
-      minZoom: 0.1
-      maxZoom: 5
-    order: 50
-  - source: github:L1tanu/canvas-page
-    enabled: true
-    options:
-      enableInteraction: true
-      initialZoom: 1
-      minZoom: 0.1
-      maxZoom: 5
-    order: 50
+    layout:
+      position: left
+      priority: 10
 layout:
   groups:
     toolbar:
