@@ -3,6 +3,8 @@ publish: true
 ---
 <div class="centered">
 
+![[lagain.svg|300]]
+
 ***(LAGAIN - “NORTHERN LAND OF THE GAILS”)*** 
 
 *“THE MANIFESTATIONS OF MANKIND,* 
@@ -14,11 +16,11 @@ publish: true
 
 ## ONENESS: THE HOLY KINGDOM OF LAGAIN
 
-Lagain is a kingdom which rose to prominence during the end of the Third Age as a center of commerce and culture. Positioned on the northern coast of the Yiegdran Sea, the fertile soil and temperate forests of the Lagainian Peninsula spawned a patchwork array of tribes, city-states, and feudal demesnes. However, the collapse of the old empire and subsequent rise of Tousav compelled the disparate Lagainians to reach an accord: unite as one or be devoured. 
+Lagain is a kingdom which rose to prominence during the end of the Third Age as a center of commerce and culture. Positioned on the northern coast of the Yiegdran Sea, the fertile soil and temperate forests of the Lagainian Peninsula spawned a patchwork array of tribes, city-states, and feudal demesnes. However, the collapse of the old empire and subsequent rise of Tousav compelled the disparate Lagainians to reach an accord: unite as one or be devoured.
 
-The Fourth Age’s newfound stability--owed to the brutality of Lagain’s first King, Conri I of Manster--permitted a brief age of enlightened religious thought. From the convocations of the northern sanctuaries arose the Orthian Concord, an order of ascetics devoted to a doctrine of Dyadic Oneness: the belief that man and his cosmos are defined by irreconcilable dualities. The Orthian Concord preaches of Exalts and Exarchs, purity and corruption, obedience and annihilation. 
+The Fourth Age’s newfound stability--owed to the brutality of Lagain’s first King, Conri I of Manster--permitted a brief age of enlightened religious thought. From the convocations of the northern sanctuaries arose the Orthian Concord, an order of ascetics devoted to a doctrine of Dyadic Oneness: the belief that man and his cosmos are defined by irreconcilable dualities. The Orthian Concord preaches of Exalts and Exarchs, purity and corruption, obedience and annihilation.
 
-Over centuries its influence metastasized within Lagain, hollowing the authority of the king and his nobility. Today, it is the potentate Immortal Allelaeon who adjudicates the faith and rules as regent to the young King Conri V. Having earned the title due to his exceptionally long life of two hundred years, he is an ardent believer who has become increasingly zealous in his mission to bring about the return of the Godhead. He commands Lagain’s armies in an endless holy war against all threats to the Orthian Concord, be they foreign or domestic. 
+Over centuries its influence metastasized within Lagain, hollowing the authority of the king and his nobility. Today, it is the potentate Immortal Allelaeon who adjudicates the faith and rules as regent to the young King Conri V. Having earned the title due to his exceptionally long life of two hundred years, he is an ardent believer who has become increasingly zealous in his mission to bring about the return of the Godhead. He commands Lagain’s armies in an endless holy war against all threats to the Orthian Concord, be they foreign or domestic.
 
 And with the Holy War came hierarchy. Lagain adheres to a strict caste system in which priest and noble meld, ceasing to be individual things: there are merely masters of the world, and the lower castes which they rule. To ascend from the low-castes, one must swear fealty to the Orthian Concord, escaping a life determined by one’s birth, one’s father, or by the past. Yet the corruption of the high-castes who purport to exalt the soul is palpable even in the Holy City of Caledon. Driven by the emphatic longing of lovers, they crave the reunification of Yiegdra and the elimination of heresies. All the world as one--even the dogs of Tousav. Especially them. 
 
