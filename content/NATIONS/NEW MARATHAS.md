@@ -3,6 +3,8 @@ publish: true
 ---
 <div class="centered">
 
+![[marathas.svg|200]]
+
 ***(MARATHAS - “CHARIOT OF MARA”)***
 
 _“IN THE DEEPEST DARKNESS 
