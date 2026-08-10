@@ -184,3 +184,11 @@ body {
   margin-bottom: 0.01em !important;
   line-height: 1 !important;
 }
+
+.popover-hint svg,
+.popover-hint object[type="image/svg+xml"],
+.popover-hint img[src$=".svg"] {
+  filter: 
+    drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5))
+    drop-shadow(-1px -1px 2px rgba(255, 255, 255, 0.2));
+}
