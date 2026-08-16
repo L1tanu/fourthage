@@ -1,7 +1,6 @@
 ---
 publish: true
 ---
-# Resting
 All days must end, and all things must rest. Every day, a character must Rest or gain one [[03 Encumbrance#^795436|Fatigue]]. Resting requires the use of a ration and clears all [[03 Encumbrance#^795436|Fatigue]]. If a ration is not consumed, you may still take a rest action, but you gain one [[03 Encumbrance#^795436|Fatigue]] and cannot clear any. During a Rest, your character can perform one of a few actions:
 - *Drink a potion:* allows you to use a potion. This also includes poisons, draughts, salves, and a myriad of other alchemical creations. The effects last as listed on the potion, or until after another full day passes. You may only consume one potion per rest. ^6a11b9
 - *Triage a wound:* allows you to use Medicine to tend to a wound, yours or another's. The medicine must be of an appropriate variety. You may only tend to one [[03 Encumbrance#^7b80a0|Wound]] per rest.

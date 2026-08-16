@@ -1,7 +1,6 @@
 ---
 publish: true
 ---
-# Encumbrance
 A character has a limited amount of space on their body and in their hands that is represented by their Encumbrance. A character’s Encumbrance is a total of 10 slots, never more or less. Each slot can be filled by either Equipment, Fatigue, or Wounds. Fatigue and Wounds can replace Equipment that is easily dropped (i.e., dropping a lantern or sword), but not one another. ^75c4d6
 # Equipment
 Staying whole and hale is a difficult task, but the right Equipment might make or break a situation. Each piece of Equipment has their Bulk (#) listed alongside their name to indicate the number of Encumbrance slots it takes up. Bulk (0) items do not take up a slot; however, they should only be carried within reason.

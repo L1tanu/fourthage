@@ -61,7 +61,7 @@ Their fashion is practical and with little flair. Heavy furs and padded clothing
 **Suggested Backgrounds:** Forester, Hunter, Logger, Ranger, Scout, Smith, Warrior. 
 
 ## THE CLANLESS
-Clanless Aardayni are an oddity but not unheard of. Often, a clanless Aardayni has been exiled as punishment for a crime, or were abandoned by their family in their youth. Unclaimed children are usually adopted into another Great or Lesser Clan--most commonly the Goldhands, who make a habit of finding promising prospects from orphans--but some rejec this path. Those who remain Clanless inevitably become nomads, traveling the frozen north alone in search of their true home. 
+Clanless Aardayni are an oddity but not unheard of. Often, a clanless Aardayni has been exiled as punishment for a crime, or were abandoned by their family in their youth. Unclaimed children are usually adopted into another Great or Lesser Clan--most commonly the Goldhands, who make a habit of finding promising prospects from orphans--but some reject this path. Those who remain Clanless inevitably become nomads, traveling the frozen north alone in search of their true home. 
 
 **Suggested Backgrounds:** Beggar, Charlatan, Mercenary, Nomad, Pilgrim, Smuggler, Thief.
 # THE WAY OF THE FIVE VOICES

@@ -1,7 +1,6 @@
 ---
 publish: true
 ---
-# Conditions
 Conditions can be applied by the environment, equipment, spells, or other sources.
 - Environmental conditions end the instant you leave the area causing them (e.g., stepping out of the light of a torch, surfacing from water).
 - Targeted conditions (spells, contraptions, etc.) end on the target's turn after Persist (#) expires or for AOEs, at the end of the turn in which you exited the area.

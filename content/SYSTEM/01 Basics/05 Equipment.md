@@ -1,7 +1,7 @@
 ---
 publish: true
 ---
-# Equipment Descriptions
+# Tags
 Depending on the piece of Equipment a character has, it may contain additional information for its function. There are several different formats for Equipment, but the shorthand for each piece will be explained below. Any white text highlights what is applicable for that Equipment.
 - Name – This is the name of the Equipment.
 - Bulk (#) – This is how many [[03 Encumbrance#^75c4d6|Encumbrance]] slots the Equipment takes up. ^9b784f
