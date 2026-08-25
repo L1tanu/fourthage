@@ -12,7 +12,7 @@ Depending on the piece of Equipment a character has, it may contain additional i
 - Size (Light/Versatile/Heavy) – This is the Size of the weapon and it determines the base damage die and other features.
 - Weapon Type – This defines the class of weapon.
 - Properties – Various tags can be applied to a weapon to modify its behavior.
-- S/D/W vs. S/D/W – This states the [[00 Characters#^91b5a0|Ability Scores]] used in attacking and defending. If multiple are highlighted, then the attacker can choose from the left side and the defender may choose from the right side.
+- S/D/W vs. S/D/W – This states the [[00 Characters#^91b5a0|Ability Scores]] used in attacking and defending. If multiple are highlighted, then the attacker can choose which they will use and which the defender will use.
 # Weapon Sizes
 - Light, 1d6
 	- [[05 Equipment#^e9fb3f|1-Handed]] 
