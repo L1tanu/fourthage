@@ -7,4 +7,6 @@ All days must end, and all things must rest. Every day, a character must Rest or
 - *Guard the group:* allows you a roll if there would be a  [[00 Characters#^35acfd|Challenge Clock]] to rest. If successful, you may either ward off the threat entirely or rouse the group before being assailed.
 - *Delve the arcane:* allows you to swap Thaumaturgy spells out equal to your Equivalency (I-V), or to sacrifice the appropriate goods to gain [[01 Spells and Contraptions#^bd3e86|Favor]] with an Entity you have a means of contacting. ^9e286e
 
+When clearing Fatigue, if you are resting with more than a total of Bulk (1) armor equipped, you subtract the Bulk (#) of your armor from the amount cleared. For example, if you have a total of Bulk (2) armor equipped, you clear 2 less Fatigue.
+
 Once you have performed your selected action, you may choose to either complete the rest, or forgo it (and clearing [[03 Encumbrance#^795436|Fatigue]]) to take an additional rest action. Once all rest actions are concluded and the [[00 Characters#^35acfd|Challenge Clock]] (typically 0 segments and 0 DC) is resolved, then the party may clear their [[03 Encumbrance#^795436|Fatigue]].

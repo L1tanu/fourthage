@@ -10,7 +10,7 @@ publish: true
 
 </div>
 
-## GYRI: THE ASSEMBLAGE OF MENEHYSI
+## GYRE: THE ASSEMBLAGE OF MENEHYSI
 
 The Assembled Islands of the Menehysi, or simply the Menehysi, are a collection of islands under the control of four clades, each of which is composed of numerous families. Its formalisation as the Assembled Islands of the Menehysi was a relatively modern categorization that was forced upon them under pressure by their steadily encroaching neighbors, the empire of Marathas. The Menehysi islands are a frigid place with the only sources of warmth being hearths heating stacked stone homes or the tangled mass of geothermal activity that gave rise to the islands themselves that now bubbles up through springs of boiling water. Despite the drifting glaciers and driving snow, these hot springs and wells of heated water are the means at which the Menehysians have been able to thrive in a place that offers little else beyond the bitter bite of cold.
 
