@@ -84,7 +84,7 @@ A divine being who resided alone in the empty world. Upon her slaying by her two
 
 Because her essence was used to create men, all men will inevitably share her fate of destruction and decay. Despite this, she is not a malevolent entity: the dirges she sings portend what is to come, helping men to avert or delay their demise. Aardayni mythology is rich with stories of virtuous warriors who heard Harm’lyoth’s songs and emerged triumphant over their own deaths. 
 
-## HE FIRSTBORN VORBO’THEE; SPRINGSONG, WIND-RIDING WREN
+## THE FIRSTBORN VORBO’THEE; SPRINGSONG, WIND-RIDING WREN
 First daughter of Harm’lyoth and her most gentle child. She ushers in spring as a blessing to mankind, as her deepest desire is for their wellbeing. Birdsong and chirping are thought to indicate her presence; a full bird’s nest is her preferred gate. Philosophy, poetry and music are considered to be her gifts to mankind--pursuits made possible by the reprieve she grants. If not for her, men would be unthinking beasts. 
 
 During spring, she holds fey-courts of lesser spirits that spawned from Harm’lyoth’s essence. This is when mischievous fey are thought to be most active, and there is a particular superstition that if one ventures into the woods during this window that they will be spirited off on a fanciful quest. If they do not return by the end of spring, however, they will be trapped in the other world forever. 

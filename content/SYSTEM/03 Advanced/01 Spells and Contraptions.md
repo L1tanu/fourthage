@@ -1,10 +1,11 @@
 ---
 publish: true
 ---
-# Spell and Contraption Descriptors
-The following describe how the majority of spells and contraptions are detailed and handled. Each Spell and Contraption will be constructed out of a number of keywords, each with a specific and clearly defined meaning. For spells, unless specified elsewhere, the attacker begins a Willpower vs. Willpower [[01 Combat#^0ee214|Contest]] against the targeted defenders or any targets within the selected area.
+For targeted spells, you initiate a Willpower vs. Willpower [[01 Combat#^0ee214|Contest]] against the target. 
 
-When a character would be subject to the AOE of a Spell or Contraption when it is first cast or triggered, they [[01 Combat#^0ee214|Contest]] it. If they succeed, they can freely move outside the range of the AOE by the shortest path possible.
+For targeted contraptions, you initiate a Dexterity vs. Dexterity [[01 Combat#^0ee214|Contest]] against the target.
+
+If a spell or contraption is instead an AOE, it is treated as a [[01 Combat#^40aef1|Save]] rather than a [[01 Combat#^0ee214|Contest]]. Each defender within the AOE rolls Willpower (spells) or Dexterity (contraptions). When a Spell or Contraption is first cast or triggered, anyone subject to the AOE can freely make a [[01 Combat#^40aef1|Save]] against it. If they succeed, they can freely move outside the range of the AOE by the shortest path possible.
 
 ## Range
 - Self: Targets the user/caster.
@@ -20,7 +21,7 @@ When a character would be subject to the AOE of a Spell or Contraption when it i
 	- Line (#*3) 1 x 1 x (#*3) line.
 	- Cone (#) Flat cone extending # paces.
 - Aura (#): A Sphere (#) that follows a living, willing target.
-	- While starting their turn within an Aura, targets Contest the Caster. If they succeed, they can freely move outside the range of the Aura by the shortest path possible. If they fail, they suffer its effects.
+	- While starting their turn within an Aura, targets Save against the Caster's Willpower. If they succeed, they can freely move outside the range of the Aura by the shortest path possible. If they fail, they suffer its effects.
 ## Duration
 - Instant: The effect is resolved when it is cast and ends when the turn it was Cast on does.
 - Persist (#): The effect lasts until the # of rounds have passed.
