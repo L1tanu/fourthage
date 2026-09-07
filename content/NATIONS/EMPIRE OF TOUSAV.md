@@ -18,7 +18,7 @@ publish: true
 
 ## ARETE: THE EMPIRE OF TOUSAV
 
-Tousav, or simply ‘the Empire’, arose from the dissolution of the Marathan Empire in the Late Third Age as a diverse array of nations under the Pallasian banner. Due to widespread famine, imperial mismanagement, and an ongoing war of succession in the Marathan Empire’s heartlands, the dukes of Pallas seized the opportunity to incite revolution in one of Marathas' historic capitals, Varashal. Supplying weapons to a peasant army, the nobility assembled ragtag peoples’ militias and slew many of the viziers charged with enforcing Marathan rule in an event known as the Day of the Roaring Lion. 
+Tousav, or simply ‘the Empire’, arose from the dissolution of the Marathan Empire in the Late Third Age as a diverse array of nations under the Pallasian banner. Due to widespread famine, imperial mismanagement, and an ongoing war of succession in the Marathan Empire’s heartlands, the dukes of Pallas seized the opportunity to incite revolution in one of Marathas' historic capitals, Varashal. Supplying weapons to a peasant army, the nobility assembled ragtag peoples’ militias and slew many of the viziers charged with enforcing Marathan rule in an event known as the Day of the Roaring Lion.
 
 In the aftermath, the seditious dukes installed themselves at the head of a new coalition of states, and crowned Argal the Undaunted as their king. The King of Pallas, and the soon-to-be Emperor of Tousav, wasted no time in rallying his armies to begin the _Pallasian March of Reconquest_: an imperial project which bridged generations, aiming to continue--and eclipse--the Marathan legacy of supremacy by uniting the world under his command. 
 

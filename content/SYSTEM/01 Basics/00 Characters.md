@@ -28,7 +28,7 @@ A character has a set of six Skill Scores that are derived from the combined val
 - Strength    + Dexterity   = Grace
 - Willpower + Strength    = Courage
 
-Skill Scores are utilized in any non-combat scenarios in order to progress [[00 Characters#^35acfd|Challenge Clocks]].
+Skill Scores are utilized in non-combat scenarios in order to progress [[00 Characters#^35acfd|Challenge Clocks]].
 # Challenge Clocks
 When a character either doesn’t possess time, practice, or tools, the GM can call for a Challenge Clock to represent the time (number of segments) and difficulty (DC to fill a segment) associated with performing the task at hand.   ^35acfd
   
