@@ -11,6 +11,7 @@
 *OH, WERE IT NOT SO…”*
 
 </div>
+
 # Larua Ardori: Demon of Obsession and Grief.
 **Aliases:** The Stone Faced God, The Bed of Stone.
 **Symbols:** Featureless faces, white sheets, open graves, bottomless pits, nooses, coffins, lakes.
