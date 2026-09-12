@@ -1,4 +1,5 @@
 <div class="centered">
+
 ***(POLYDEGMON - “HOST OF MANY”)***
 
 *“IN YOUR DREAMS YOU DRINK*
@@ -8,6 +9,7 @@
 *YET YOU CRADLE DEAD THINGS,*
 *WHICH LEAVE YOU COME MORNING.*
 *OH, WERE IT NOT SO…”*
+
 </div>
 # Larua Ardori: Demon of Obsession and Grief.
 **Aliases:** The Stone Faced God, The Bed of Stone.
