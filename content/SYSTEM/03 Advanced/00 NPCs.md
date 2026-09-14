@@ -9,6 +9,23 @@ NPC horses, helpers, and anything in between can be considered Hirelings. Hireli
 Multiple Hirelings may provide their bonus to any given [[00 Characters#^35acfd|Challenge Clock]]. Every Hireling has a cost that must be paid when they are utilized in Projects. If the cost is unpaid, they will likely defect, refuse, or die.
 
 Outside of specific circumstances, Hirelings should *not* be included in combat. The exception to this comes with Hirelings that explicitly list a statblock that are being used in the defense of an area.
+# Steeds
+Certain Hirelings qualify as Steeds, which can be utilized during combat encounters per the following rules.
+
+**Always:**
+- Steeds cannot gain or expend AP.
+- Steeds gain Wounds as Players and Formidable NPCs do.
+
+**Mounting/Mounted:**
+- As an Interaction, you can mount an adjacent Steed.
+- You gain your Steed's Speed bonus.
+- Your Steed uses your stats for Defensive Contests or Saves.
+
+**Dismounting/Dismounted:**
+- As an Interaction, you can dismount a Steed, landing adjacent.
+- A Steed uses a bonus of +0 for Defensive Contests or Saves.
+- If you are dismounted, the Steed must make a Morale Save or flee the encounter.
+- Forced movement automatically dismounts you.
 # NPC Statblocks
 Come in two variations: Fodder and Formidable. Fodder NPCs do not have an [[03 Encumbrance|Encumbrance]], just a single static HP pool and only use one reaction to being attacked (evade/block/counter). They are intended as wolves in a pack or a simple guardsman. Formidable NPCs have an [[03 Encumbrance|Encumbrance]], but typically not a full one. They are a bandit king or cave bear.
 # NPC Morale

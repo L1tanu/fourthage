@@ -1,6 +1,14 @@
 ---
 publish: true
 ---
+# Common Conventions
+The following are conventions that are *always* true unless explicitly stated otherwise:
+- Meets, beats; favors the initiator.
+- Always round down, minimum of one.
+- Halving and doubling are always applied *before* addition or subtraction.
+- Every *other* diagonal costs two movement. (1, 2, 1, 2, etc.)
+- A Pace is approximately a yard, meter, etc. It is represented by a block, tile, etc.
+- Dice sizes grow/shrink as such: 1d2>1d4>1d6>1d8>1d10>1d12>2d6>2d8>2d10>2d12.
 # Ability Scores
 Each character has three Ability Scores (Strength, Dexterity, Willpower). Ability Scores give you a modifier to any d20 roll made with them equal to the score itself (i.e., making a roll using Strength with a score of 5 would mean rolling 1d20+5). ^91b5a0
 
