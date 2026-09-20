@@ -6,7 +6,6 @@ For targeted spells, you initiate a Willpower vs. Willpower [[01 Combat#^0ee214|
 For targeted contraptions, you initiate a Dexterity vs. Dexterity [[01 Combat#^0ee214|Contest]] against the target.
 
 If a spell or contraption is instead an AOE, it is treated as a [[01 Combat#^40aef1|Save]] rather than a [[01 Combat#^0ee214|Contest]]. Each defender within the AOE rolls Willpower (spells) or Dexterity (contraptions). When a Spell or Contraption is first cast or triggered, anyone subject to the AOE can freely make a [[01 Combat#^40aef1|Save]] against it. If they succeed, they can freely move outside the range of the AOE by the shortest path possible.
-
 ## Range
 - Self: Targets the user/caster.
 - Touch: Targets adjacent.
