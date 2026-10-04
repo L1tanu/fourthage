@@ -9,6 +9,7 @@ At the beginning of the OOC week, a player may pick one of the following Project
 - *Thievery* is the act of stealing from another character or burglary. This requires direct GM oversight.
 - *Pitched battles* are special mass-scale combats which take place between two opposing armies, rather than a small handful of characters.
 - *Freelancing* is the act of finding odd-jobs or work. It allows for characters to make some quick coin.
+- *Training* is the retooling of a character's tool set so that skills and abilities can be swapped and exchanged as befitting the turning of their story.
 - *Misc.* is reserved for particular projects that a GM wishes to have a player pursue. Examples of this could include researching a hefty tome, experimenting to reverse engineer a decoction, or gathering rumors.
 
 At the end of the OOC week (typically Sunday), a player can attempt a roll, using the [[00 Characters#^50f785|Skill Score]] listed, against the [[00 Characters#^35acfd|Challenge Clock]]. If the character would be able to skip all segments, they still must wait for when the first roll would have occurred.
