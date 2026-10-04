@@ -8,7 +8,7 @@ The following are conventions that are *always* true unless explicitly stated ot
 - Halving and doubling are always applied *before* addition or subtraction.
 - Every *other* diagonal costs two movement. (1, 2, 1, 2, etc.)
 - A Pace is approximately a yard, meter, etc. It is represented by a block, tile, etc.
-- Dice sizes grow/shrink as such: 1d2>1d4>1d6>1d8>1d10>1d12>2d6>2d8>2d10>2d12.
+- Dice sizes grow/shrink as such: 1d2>1d4>1d6>1d8>1d10>1d12.
 # Ability Scores
 Each character has three Ability Scores (Strength, Dexterity, Willpower). Ability Scores give you a modifier to any d20 roll made with them equal to the score itself (i.e., making a roll using Strength with a score of 5 would mean rolling 1d20+5). ^91b5a0
 
@@ -38,7 +38,7 @@ A character has a set of six Skill Scores that are derived from the combined val
 
 Skill Scores are utilized in non-combat scenarios in order to progress [[00 Characters#^35acfd|Challenge Clocks]].
 # Challenge Clocks
-When a character either doesn’t possess time, practice, or tools, the GM can call for a Challenge Clock to represent the time (number of segments) and difficulty (DC to fill a segment) associated with performing the task at hand.   ^35acfd
+When a character either doesn’t possess time, practice, or tools, the GM can call for a Challenge Clock to represent the time (number of segments) and difficulty (DC to fill a segment) associated with performing the task at hand. ^35acfd
   
 A Challenge Clock’s segments are determined by how long a task might take and the DC based upon how challenging it would be. A player will roll a d20 and add the applicable [[00 Characters#^50f785|Skill Score]] and [[00 Characters#^331b71|Skills]] for a task, then the GM will resolve the following effects:
 - Catastrophic (below DC by 5 or more; empty a segment)

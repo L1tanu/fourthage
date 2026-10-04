@@ -6,13 +6,16 @@ Depending on the piece of Equipment a character has, it may contain additional i
 - Name – This is the name of the Equipment.
 - Bulk (#) – This is how many [[03 Encumbrance#^75c4d6|Encumbrance]] slots the Equipment takes up. ^9b784f
 	- If an item is Bulk (0), it can stack up to 99, then it is Bulk (1).
-- Bundled (#) – This is how many it can stack up to the # until it takes up more Bulk (#).
 - 1d# – This is the damage die and is rolled to determine how much damage is being dealt.
 - Slsh/Punc/Bldg – This is the damage type and determines what damage reduction applies to the damage.
 - Size (Light/Versatile/Heavy) – This is the Size of the weapon and it determines the base damage die and other features.
 - Weapon Type – This defines the class of weapon.
 - Properties – Various tags can be applied to a weapon to modify its behavior.
 - S/D/W vs. S/D/W – This states the [[00 Characters#^91b5a0|Ability Scores]] used in attacking and defending. If multiple are highlighted, then the attacker can choose which they will use and which the defender will use.
+# Usage Die
+Some items are used up as you go. This is tracked by a Usage Die, which steps down through d12  > d10 > d8 > d6 > d4. Each time you use the item, roll its Usage Die. On a 1 or 2, the die shrinks one size. If a d4 shrinks, the item is fully used up. ^5c9d44
+
+Two items of the same type can be combined into one. Count each die as steps (d4 = 1, d6 = 2, d8 = 3, d10 = 4, d12 = 5), add them together, and the result is the new die, to a maximum of d12.
 # Weapon Sizes
 - Light, 1d6
 	- [[05 Equipment#^e9fb3f|1-Handed]] 
@@ -58,7 +61,7 @@ Damaged (#): All damage reduction is reduced by 1 per #. If all damage reduction
 Potions are only consumed while [[01b Resting#^6a11b9|Resting]], see rest actions for more information. ^b1157b
 # Contraption
 Particularly complex or strange traps and weapons are referred to as Contraptions. Grenades, stickybombs, tripwires, throwing knives, and etc. fall into this category. They are activated as an Interaction following the AP listed on the item. There are two key words specific to Contraptions described as follows:
-- Consumable: Is destroyed on use.
+- Consumable: Roll the [[05 Equipment#^5c9d44|Usage Die]] when used, on a 1 or 2, the die size is reduced.
 - Recharge (#): Can be used # times, then is unusable until an encounter ends.
 # Handedness
 You can use any weapon, magic, or Contraption your character has access to, provided you have enough free hands for it. One-handed Equipment occupies one hand; two-handed Equipment occupies both. If your hands are full, changing what you're holding is an Interaction that costs 1 AP, unless you are dropping it. At the start of your first turn in an Encounter, you may freely draw items into your hands. ^e9fb3f

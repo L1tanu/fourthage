@@ -17,7 +17,7 @@ Whenever a player would roll an unmodified 20, it is counted as a Critical.
 - [[01 Combat#^80b511|Defending]], you gain +1 [[01 Combat#^72491d|AP]].
 - Advancing [[00 Characters#^35acfd|Challenge Clocks]], you get a [[00 Characters#^a061fc|Breakthrough]] and +1 segment filled.
 # Rounds, Turns, and Initiative
-A round is approximately 10 seconds total with every turn occurring within that time frame. Each player and NPC in a scene will have a turn within a round. At the start of each round, the initial order of turns (Initiative Order) is determined by rolling a Dexterity [[01 Combat#^0ee214|Contest]]. ^0dc1bc
+A round is approximately 10 seconds total with every turn occurring within that time frame. Each player and NPC in a scene will have a turn within a round. At the start of each round, the initial order of turns (Initiative Order) is determined by rolling a Finesse [[01 Combat#^0ee214|Contest]]. ^0dc1bc
 # Action Points
 Nearly every action that a character can perform costs 1 Action Point (AP), 3 AP is gained at the start of every round, after determining [[01 Combat#^0dc1bc|Initiative Order]]. Any unspent AP is carried over to your next turn, up to your maximum of 5. AP can be spent to perform the following actions: ^72491d
 - [[01 Combat#^80b511|Attack]]

@@ -2,6 +2,8 @@ Not every Project is a grand undertaking, some are just odd-jobs performed to pa
 ## Base Pay by Work Type
 You may only take work on of a particular tier if you have a skill of that tier. Likewise, if you have a tool, it must be of use to the task being performed. The DC for Freelancing begins at 5, then the tier of work and tool are added to it. They are always 1 Segment long.
 
+Example: Tier 3 skill work completed with a tier 1 tool will have a DC of 9 (5 + 4) and reward 155 coins.
+
 | Tier of Work / Tool | Base Pay | DC  |
 | ------------------- | -------- | --- |
 | Unskilled work      | 5        | +0  |
